@@ -1,6 +1,6 @@
 # Localization parity
 
-> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-10-10 · **Change:** minor (right-to-left shell layout) · **Target:** Adobe Photoshop 2026
+> **Last reviewed:** 2026-10-12 · **Last updated:** 2026-10-12 · **Change:** minor (Georgian catalog) · **Target:** Adobe Photoshop 2026
 
 Per-language status of PhotoCraft's UI. How catalogs work and how to add one:
 [`localization.md`](localization.md). Language notes: [Korean](localization-ko.md), [Spanish](localization-es.md),
@@ -22,7 +22,7 @@ Vietnamese UI; Arabic and Hebrew users get English "Middle East" builds with the
 composer, and its text engine handles RTL, Devanagari and Indic scripts.
 
 **Summary.** 7 of the 12 key languages at 100% of measured keys (status `partial` because of the
-engine messages), 3 absent (Hindi, Arabic, Vietnamese), plus 8 other languages. Weighted by
+engine messages), 3 absent (Hindi, Arabic, Vietnamese), plus 9 other languages. Weighted by
 speakers, ~55% ready. Remaining: 80–140 h, plus native-speaker review (none recorded for any
 catalog).
 
@@ -45,9 +45,10 @@ catalog).
 
 ## Other shipped languages
 
-8 more, each at 1,608 / 1,608 measured keys, status `partial` for the same reason: Traditional
+9 more, each at 1,608 / 1,608 measured keys, status `partial` for the same reason: Traditional
 Chinese `zh-hant` (2,329 rows), Russian `ru` (2,544), Ukrainian `uk` (3,375), Czech `cs` (2,337),
-Polish `pl` (3,366), Greek `el` (3,481), Dutch `nl` (3,568), Italian `it` (2,411).
+Polish `pl` (3,366), Greek `el` (3,481), Dutch `nl` (3,568), Italian `it` (2,411), Georgian `ka` (3,731; 1,727 / 1,727 keys on 2026-10-12;
+Georgian UI fallback font: Noto Sans Georgian, Segoe UI, Sylfaen, SF Georgian, Arial Unicode, DejaVu Sans).
 
 ## Cross-language gaps
 
@@ -66,3 +67,4 @@ Polish `pl` (3,366), Greek `el` (3,481), Dutch `nl` (3,568), Italian `it` (2,411
 |---|---|---|
 | 2026-10-10 | major | First version, measured from the catalogs with the `i18n-coverage` rules |
 | 2026-10-10 | minor | Right-to-left shell layout (menu bar, title, options and status bars, toolbox and dock sides) |
+| 2026-10-12 | minor | Georgian (`ka`) catalog and macOS Georgian UI fallback font |
