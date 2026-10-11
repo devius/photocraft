@@ -106,7 +106,7 @@ impl Script {
             ],
             Hebrew => &["notosanshebrew", "notoserifhebrew", "segoeui", "arialhb", "sfhebrew", "dejavusans", "arial", "freesans", "culmus"],
             Armenian => &["notosansarmenian", "notoserifarmenian", "segoeui", "sylfaen", "mshtakan", "dejavusans", "freesans"],
-            Georgian => &["notosansgeorgian", "notoserifgeorgian", "segoeui", "sylfaen", "dejavusans", "freesans"],
+            Georgian => &["notosansgeorgian", "notoserifgeorgian", "segoeui", "sylfaen", "sfgeorgian", "arialunicode", "dejavusans", "freesans"],
             Ethiopic => &["notosansethiopic", "notoserifethiopic", "ebrima", "kefa", "abyssinicasil"],
             Devanagari => &[
                 "notosansdevanagari",
@@ -339,6 +339,14 @@ mod tests {
         assert_eq!(names(Script::Devanagari), ["Nirmala.ttc", "Kohinoor.ttc", "Lohit-Devanagari.ttf"]);
         assert_eq!(names(Script::Tamil), ["Nirmala.ttc", "Lohit-Tamil.ttf"]);
         assert!(names(Script::Ethiopic).is_empty());
+        // macOS has no Noto, Segoe or Sylfaen: SF Georgian, then Arial Unicode (Supplemental).
+        let mac: Vec<PathBuf> =
+            ["/System/Library/Fonts/Supplemental/Arial Unicode.ttf", "/System/Library/Fonts/SFGeorgian.ttf", "/System/Library/Fonts/SFGeorgianRounded.ttf"]
+                .into_iter()
+                .map(PathBuf::from)
+                .collect();
+        let mac_names: Vec<_> = candidates(Script::Georgian, &mac).into_iter().map(|p| p.file_name().unwrap().to_string_lossy().into_owned()).collect();
+        assert_eq!(mac_names, ["SFGeorgian.ttf", "Arial Unicode.ttf"]);
         assert!(candidates(Script::Thai, &[]).is_empty());
     }
 
@@ -358,7 +366,7 @@ mod tests {
     #[cfg(not(target_arch = "wasm32"))]
     #[test]
     fn system_candidates_cover_their_script() {
-        for (s, c) in [(Script::Thai, 'ส'), (Script::Arabic, 'ر'), (Script::Hebrew, 'ש'), (Script::Devanagari, 'न')] {
+        for (s, c) in [(Script::Thai, 'ส'), (Script::Arabic, 'ر'), (Script::Hebrew, 'ש'), (Script::Devanagari, 'न'), (Script::Georgian, 'ა')] {
             let found = system_candidates(s).iter().take(4).any(|p| std::fs::read(p).ok().and_then(|b| covering_face(&b, c)).is_some());
             eprintln!("{s:?}: {}", if found { "covered" } else { "no installed font" });
         }
