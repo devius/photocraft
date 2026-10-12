@@ -4,7 +4,7 @@
 
 Per-language status of PhotoCraft's UI. How catalogs work and how to add one:
 [`localization.md`](localization.md). Language notes: [Korean](localization-ko.md), [Spanish](localization-es.md),
-[Simplified Chinese](localization-zh-hans.md), [Italian](localization-it.md).
+[Simplified Chinese](localization-zh-hans.md), [Italian](localization-it.md), [Georgian](localization-ka.md).
 
 **How measured.** `cargo xtask i18n-coverage` (`xtask/src/i18n_coverage.rs`) defines the key
 universe: `tl!("…")` literals and `trn(` plurals in `ui-egui` (tests excluded), menu-catalog
@@ -48,7 +48,7 @@ catalog).
 9 more, each at 1,608 / 1,608 measured keys, status `partial` for the same reason: Traditional
 Chinese `zh-hant` (2,329 rows), Russian `ru` (2,544), Ukrainian `uk` (3,375), Czech `cs` (3,522),
 Polish `pl` (3,366), Greek `el` (3,481), Dutch `nl` (3,568), Italian `it` (3,928; also every dynamic label the
-other catalogs translate, [notes](localization-it.md)), Georgian `ka` (KAROWS; KAKEYS on 2026-10-13;
+other catalogs translate, [notes](localization-it.md)), Georgian `ka` (4,015; 1,773 / 1,773 keys on 2026-10-13;
 Georgian UI fallback font: Noto Sans Georgian, Segoe UI, Sylfaen, SF Georgian, Arial Unicode, DejaVu Sans). Turkish `tr` (3,731 rows) also covers every
 measured key.
 

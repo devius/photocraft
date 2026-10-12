@@ -2978,7 +2978,6 @@ cameraData	Lens	ობიექტივი
 	Freeform Pen Tool	თავისუფალი კალამი
 	Curvature Pen Tool	მრუდის კალამი
 	Curve Fit:	მრუდის მორგება:
-	Drag: draw freehand · Release on the start point: close	გადათრევა: თავისუფალი ხატვა · გაშვება საწყის წერტილზე: დახურვა
 	Click: smooth point · Double-click: corner · Drag a point: move · Click first point: close · {key} finish	დაწკაპუნება: გლუვი წერტილი · ორმაგი დაწკაპუნება: კუთხე · წერტილის გადათრევა: გადაადგილება · პირველ წერტილზე დაწკაპუნება: დახურვა · {key} დასრულება
 	New Crop Preset…	ჩამოჭრის ახალი პრესეტი…
 	Delete Crop Preset…	ჩამოჭრის პრესეტის წაშლა…
@@ -3787,3 +3786,290 @@ layerLabel	No Color	ფერის გარეშე
 	Emulsion Down	ემულსია ქვემოთ
 	Functions	ფუნქციები
 	Print Resolution:	ბეჭდვის გარჩევადობა:
+
+# Added upstream (sync 2026-10-13)
+	Merge Group	ჯგუფის შერწყმა
+	Manage submitted jobs in the system print queue	სისტემის ბეჭდვის რიგში გაგზავნილი დავალებების მართვა
+	Enable animations	ანიმაციების ჩართვა
+	Saving {percent}	ინახება: {percent}
+	Transform On Drop	გარდაქმნა ჩაგდებისას
+	Scale or rotate the moved area, then press {key}	გადაადგილებული არის მასშტაბირება ან შემობრუნება, შემდეგ დააჭირეთ {key}-ს
+	Drag: draw freehand · {alt}-click: straight segment · Release on the start point: close	გადათრევა: თავისუფალი ხატვა · {alt}-დაწკაპუნება: სწორი მონაკვეთი · გაშვება საწყის წერტილზე: დახურვა
+	Amount:	რაოდენობა:
+	Protect:	დაცვა:
+	Protect skin tones	კანის ტონების დაცვა
+	Edit points to modify the curve	მრუდის შესაცვლელად წერტილების რედაქტირება
+	Draw to modify the curve	მრუდის შესაცვლელად ხატვა
+	Smooth the curve values	მრუდის მნიშვნელობების გაგლუვება
+	Drag to draw the curve · {key}-click draws a straight line	გადაათრიეთ მრუდის დასახატად · {key}-დაწკაპუნება ხაზავს სწორ ხაზს
+	Grid Size:	ბადის ზომა:
+	Vanishing Point: click four corners to create a plane	გაქრობის წერტილი: სიბრტყის შესაქმნელად დააწკაპუნეთ ოთხ კუთხეზე
+	Vanishing Point is not active	გაქრობის წერტილი არ არის აქტიური
+	Apply Vanishing Point ({key})	გაქრობის წერტილის გამოყენება ({key})
+	Fix the red plane first: its corners must form a convex quad	ჯერ გაასწორეთ წითელი სიბრტყე: მისი კუთხეები ამოზნექილ ოთხკუთხედს უნდა ქმნიდეს
+	Use Previous Layer to Create Clipping Mask	წინა შრის გამოყენება ჩაჭრის ნიღბის შესაქმნელად
+	Fill with {mode}-neutral color (white)	შევსება {mode}-ისთვის ნეიტრალური ფერით (თეთრი)
+	Fill with {mode}-neutral color (black)	შევსება {mode}-ისთვის ნეიტრალური ფერით (შავი)
+	Fill with {mode}-neutral color (50% gray)	შევსება {mode}-ისთვის ნეიტრალური ფერით (50% ნაცრისფერი)
+	(No neutral color exists for {mode} mode.)	({mode} რეჟიმისთვის ნეიტრალური ფერი არ არსებობს.)
+	The layer or its mask changed. Drag the mask onto the Trash again.	შრე ან მისი ნიღაბი შეიცვალა. კვლავ გადაათრიეთ ნიღაბი ნაგვის ყუთზე.
+	Light Blue	ღია ლურჯი
+	Light Red	ღია წითელი
+	Medium Blue	საშუალო ლურჯი
+	Light Gray	ღია ნაცრისფერი
+	Remove after each stroke	ყოველი შტრიხის შემდეგ მოშორება
+	Apply the removal ({key})	მოშორების გამოყენება ({key})
+	Strokes to remove: {n} (Enter applies, Esc cancels)	მოსაშორებელი შტრიხი: {n} (Enter — გამოყენება, Esc — გაუქმება)
+	Simulate Pressure	დაწოლის იმიტაცია
+	Stroke Path…	ტრაექტორიის შემოხაზვა…
+	Background Eraser	ფონის საშლელი
+	Healing Brush	აღმდგენი ფუნჯი
+	Spot Healing Brush	წერტილოვანი აღმდგენი ფუნჯი
+	Smudge	გადღაბნა
+curves	Smooth	გაგლუვება
+	Apply mask to layer before removing?	გამოვიყენო ნიღაბი შრეზე მოშორებამდე?
+	Delete the vector mask?	წავშალო ვექტორული ნიღაბი?
+@plural	Exported {n} swatch to {file}|Exported {n} swatches to {file}	ფერის ნიმუში: {n} ექსპორტირებულია {file}-ში
+@plural	Imported {n} brush from {group}|Imported {n} brushes from {group}	{group}-დან იმპორტირებულია ფუნჯი: {n}
+@plural	Imported {n} swatch from {file}|Imported {n} swatches from {file}	{file}-დან იმპორტირებულია ფერის ნიმუში: {n}
+@plural	Played {n} step|Played {n} steps	შესრულებულია ნაბიჯი: {n}
+@plural	Updated {n} linked smart object changed on disk|Updated {n} linked smart objects changed on disk	განახლდა დისკზე შეცვლილი დაკავშირებული ჭკვიანი ობიექტი: {n}
+@plural	Saved for Web: {n} file|Saved for Web: {n} files	შენახულია ვებისთვის: ფაილი: {n}
+@plural	{n} layer recorded by this comp was deleted. Update the comp, or clear the warning.|{n} layers recorded by this comp were deleted. Update the comp, or clear the warning.	ამ კომპოზიციის მიერ ჩაწერილი შრე წაიშალა: {n}. განაახლეთ კომპოზიცია ან გაასუფთავეთ გაფრთხილება.
+@plural	{n} plane|{n} planes	სიბრტყე: {n}
+@plural	{n} preset|{n} presets	პრესეტი: {n}
+@plural	{n} sample point removed|{n} sample points removed	მოშორებულია სინჯის წერტილი: {n}
+@plural	{n} slice|{n} slices	ნაჭერი: {n}
+@plural	{n} step|{n} steps	ნაბიჯი: {n}
+@plural	{warning} (+{n} more brush preset warning)|{warning} (+{n} more brush preset warnings)	{warning} (ფუნჯის პრესეტის კიდევ ერთი გაფრთხილება: +{n})
+@plural	{what} with {n} warning|{what} with {n} warnings	{what}, გაფრთხილება: {n}
+	Duplicate Channel	არხის დუბლირება
+	Delete Channel	არხის წაშლა
+	Rename Channel…	არხის გადარქმევა…
+	Merge Spot Channel	სპოტ-ფერის არხის შერწყმა
+	Convert to Alpha Channel	ალფა-არხად გარდაქმნა
+	Exit Quick Mask	სწრაფი ნიღბიდან გამოსვლა
+	New Channel…	ახალი არხი…
+	New Spot Channel…	ახალი სპოტ-ფერის არხი…
+	Split Channels	არხების დაყოფა
+	Merge Channels…	არხების შერწყმა…
+	Color Indicates Masked Areas	ფერი აღნიშნავს ნიღბიან არეებს
+	Color Indicates Selected Areas	ფერი აღნიშნავს მონიშნულ არეებს
+	Up	ზემოთ
+	To	საბოლოო
+	Make Work Path…	სამუშაო ტრაექტორიის შექმნა…
+	Create Vector Mask	ვექტორული ნიღბის შექმნა
+	Make Selection…	მონიშნულის შექმნა…
+	Fill Path…	ტრაექტორიის შევსება…
+	Clipping Path…	ჩაჭრის ტრაექტორია…
+	Free Transform Path	ტრაექტორიის თავისუფალი გარდაქმნა
+	Unite Shapes at Overlap	ფიგურების გაერთიანება გადაფარვის არეში
+	Subtract Shapes at Overlap	ფიგურების გამოკლება გადაფარვის არეში
+	Copy Fill	შევსების კოპირება
+	Copy Complete Stroke	სრული კონტურის კოპირება
+	Paste Fill	შევსების ჩასმა
+	Paste Complete Stroke	სრული კონტურის ჩასმა
+	Make Symmetry Path	სიმეტრიის ტრაექტორიის შექმნა
+	Disable Symmetry Path	სიმეტრიის ტრაექტორიის გამორთვა
+	Dark Gray	მუქი ნაცრისფერი
+	Medium Gray	საშუალო ნაცრისფერი
+	Select Custom Color…	მორგებული ფერის არჩევა…
+	Color Picker (Custom Canvas Color)	ფერის ამრჩევი (ტილოს მორგებული ფერი)
+	✓ Color Indicates Masked Areas	✓ ფერი აღნიშნავს ნიღბიან არეებს
+	✓ Color Indicates Selected Areas	✓ ფერი აღნიშნავს მონიშნულ არეებს
+	Shallow	ზედაპირული
+	Deep	ღრმა
+	Blend Interior Effects as Group	შიდა ეფექტების შერევა ჯგუფად
+	Blend Clipped Layers as Group	ჩაჭრილი შრეების შერევა ჯგუფად
+	Transparency Shapes Layer	გამჭვირვალობა განსაზღვრავს შრის ფორმას
+	Layer Mask Hides Effects	შრის ნიღაბი მალავს ეფექტებს
+	Vector Mask Hides Effects	ვექტორული ნიღაბი მალავს ეფექტებს
+	General Blending	ზოგადი შერევა
+	This Layer:	ეს შრე:
+	Underlying Layer:	ქვედა შრე:
+	Nothing to paste: the clipboard holds no image	ჩასასმელი არაფერია: გაცვლის ბუფერში გამოსახულება არ არის
+	Preferences saved	პარამეტრები შენახულია
+	Invalid panel layout; restored the default dock	პანელების განლაგება არასწორია; აღდგა ნაგულისხმევი დოკი
+	Preferences were reset: {error}	პარამეტრები ჩამოიყარა: {error}
+	Recovered {name}	აღდგენილია {name}
+	Couldn't save preferences: {error}. Retrying…	პარამეტრების შენახვა ვერ მოხერხდა: {error}. ხელახლა ცდა…
+	Autosave failed: {error}	ავტოშენახვა ვერ მოხერხდა: {error}
+	Exported presets to {path}	პრესეტები ექსპორტირებულია: {path}
+	Ran script {name}	სკრიპტი შესრულდა: {name}
+	Sent to the printer ({spooler})	გაიგზავნა პრინტერზე ({spooler})
+	Printed to {path}	დაიბეჭდა: {path}
+	Exported {path} ({size})	ექსპორტირებულია: {path} ({size})
+	Exported {path}	ექსპორტირებულია: {path}
+	Added swatch {name}	დაემატა ფერის ნიმუში: {name}
+	Step {step} ({id}) failed: {error}	ნაბიჯი {step} ({id}) ვერ შესრულდა: {error}
+	Could not rename the action: {error}	მოქმედების გადარქმევა ვერ მოხერხდა: {error}
+	Action playback failed: {error}	მოქმედების შესრულება ვერ მოხერხდა: {error}
+	Clone source set at {x}, {y}	კლონირების წყარო დაყენდა: {x}, {y}
+	Color management: {error}	ფერების მართვა: {error}
+	Opened {url}	გაიხსნა: {url}
+	No custom shape "{name}": pick one in the options bar or Window › Shapes	მორგებული ფიგურა „{name}“ არ არსებობს: აირჩიეთ პარამეტრების ზოლში ან ფანჯარა › ფიგურები
+	Saved a copy as {path}	ასლი შენახულია როგორც {path}
+	Exported contents to {path}	შიგთავსი ექსპორტირებულია: {path}
+	{label} is not available: {reason}	{label} მიუწვდომელია: {reason}
+	Saved {path}; image assets: {n} in {dir}	შენახულია {path}; გამოსახულების რესურსები: {n}, {dir}-ში
+	{message} (notes: {n}; {warning})	{message} (შენიშვნა: {n}; {warning})
+	Preferences can't be saved	პარამეტრების შენახვა შეუძლებელია
+	PhotoCraft keeps retrying; until a save succeeds, preference changes are lost when it closes.	PhotoCraft კვლავ ცდილობს; სანამ შენახვა არ მოხერხდება, პარამეტრების ცვლილებები დახურვისას დაიკარგება.
+	GPU retry scheduled	GPU-ს ხელახალი ცდა დაგეგმილია
+	Save your work and restart PhotoCraft to retry GPU acceleration. CPU rendering remains active for this session.	შეინახეთ ნამუშევარი და გადატვირთეთ PhotoCraft GPU-აჩქარების ხელახლა საცდელად. ამ სესიაში CPU-რენდერინგი აქტიური რჩება.
+	GPU device was lost; using the CPU renderer.	GPU მოწყობილობა დაიკარგა; გამოიყენება CPU-რენდერერი.
+	GPU error; using the CPU renderer.	GPU-ს შეცდომა; გამოიყენება CPU-რენდერერი.
+	Couldn't open {name}: {error}	{name}-ის გახსნა ვერ მოხერხდა: {error}
+	Toggle the Brush Settings panel	ფუნჯის პარამეტრების პანელის ჩართვა/გამორთვა
+	New Brush Preset	ფუნჯის ახალი პრესეტი
+	Grid view	ბადისებრი ხედი
+	List view	სიის ხედი
+	{verb} {mask} {layer}	{verb}: {mask}, {layer}
+	Unlink	კავშირის გაწყვეტა
+	Link	დაკავშირება
+	layer mask	შრის ნიღაბი
+	vector mask	ვექტორული ნიღაბი
+	Commit transform	გარდაქმნის დადასტურება
+	Cancel transform	გარდაქმნის გაუქმება
+	Scroll menu up	მენიუს ზემოთ გადახვევა
+	Scroll menu down	მენიუს ქვემოთ გადახვევა
+	This type layer must be rasterized before proceeding. Its text will no longer be editable. Rasterize the type?	გასაგრძელებლად ეს ტექსტის შრე უნდა დარასტრირდეს. მისი ტექსტი აღარ იქნება რედაქტირებადი. დავარასტრირო ტექსტი?
+	This shape layer must be rasterized before proceeding. It will no longer be editable as a shape. Rasterize the shape?	გასაგრძელებლად ეს ფიგურის შრე უნდა დარასტრირდეს. ის ფიგურად აღარ იქნება რედაქტირებადი. დავარასტრირო ფიგურა?
+	This Smart Object must be rasterized before proceeding. Its contents will no longer be editable. Rasterize the Smart Object?	გასაგრძელებლად ეს ჭკვიანი ობიექტი უნდა დარასტრირდეს. მისი შიგთავსი აღარ იქნება რედაქტირებადი. დავარასტრირო ჭკვიანი ობიექტი?
+	This fill layer must be rasterized before proceeding. Its fill content will no longer be editable. Rasterize the layer?	გასაგრძელებლად ეს შევსების შრე უნდა დარასტრირდეს. მისი შევსება აღარ იქნება რედაქტირებადი. დავარასტრირო შრე?
+	This layer must be rasterized before proceeding.	გასაგრძელებლად ეს შრე უნდა დარასტრირდეს.
+	Color Picker (Background Color)	ფერის ამრჩევი (ფონის ფერი)
+	Color Picker (Foreground Color)	ფერის ამრჩევი (წინა პლანის ფერი)
+	Adwaita (Light)	Adwaita (ღია)
+	Adwaita (Dark)	Adwaita (ბნელი)
+	Breeze Light	Breeze ღია
+	Breeze Dark	Breeze ბნელი
+	Solarized Dark	Solarized ბნელი
+	Open Recent is unavailable on the web	ბოლოდროინდელის გახსნა ვებში მიუწვდომელია
+	Graphics adapter: {adapter}	გრაფიკული ადაპტერი: {adapter}
+	Backend: {backend} ({type})	ბექენდი: {backend} ({type})
+	Driver: {driver}	დრაივერი: {driver}
+	GPU backend preference: {backend}	GPU ბექენდის არჩევანი: {backend}
+	Selected at launch: {backend}	არჩეულია გაშვებისას: {backend}
+	Image compositor: {processor}	გამოსახულების კომპოზიტორი: {processor}
+	Fallback: {reason}	სარეზერვო ვარიანტი: {reason}
+	This session: {reason}	ეს სესია: {reason}
+	Window renderer: {renderer}	ფანჯრის რენდერერი: {renderer}
+	Software adapter	პროგრამული ადაპტერი
+	Graphics adapter	გრაფიკული ადაპტერი
+	unknown	უცნობი
+	unknown type	უცნობი ტიპი
+	auto	ავტომატური
+	Platform: {os} {arch}	პლატფორმა: {os} {arch}
+	previous reading kept; the last re-read failed: {reason}	შენარჩუნებულია წინა მონაცემები; ბოლო ხელახალი წაკითხვა ვერ მოხერხდა: {reason}
+	Monitor profile: {profile}	მონიტორის პროფილი: {profile}
+	Display profiles: {reason}	ეკრანის პროფილები: {reason}
+	Monitor profile in use on {display}: {profile}	{display}-ზე გამოყენებული მონიტორის პროფილი: {profile}
+	Monitor profile in use: {profile}	გამოყენებული მონიტორის პროფილი: {profile}
+	The canvas is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	ტილო ნაჩვენებია როგორც sRGB. აირჩიეთ მონიტორის პროფილი: რედაქტირება › ფერის პარამეტრები.
+	The canvas on {display} is shown as sRGB. Choose a monitor profile in Edit › Color Settings.	ტილო {display}-ზე ნაჩვენებია როგორც sRGB. აირჩიეთ მონიტორის პროფილი: რედაქტირება › ფერის პარამეტრები.
+	Display profile not used	ეკრანის პროფილი არ გამოიყენება
+	Monitor profile on {display} (main window): {profile}	მონიტორის პროფილი {display}-ზე (მთავარი ფანჯარა): {profile}
+	Monitor profile on {display}: {profile}	მონიტორის პროფილი {display}-ზე: {profile}
+	manual	ხელით
+	fallback	სარეზერვო
+	The document does not have an embedded colour profile. Working space: {working}.	დოკუმენტს არ აქვს ჩაშენებული ფერის პროფილი. სამუშაო სივრცე: {working}.
+	The document has an embedded colour profile that does not match the working space.\nEmbedded: {embedded}\nWorking: {working}	დოკუმენტს აქვს ჩაშენებული ფერის პროფილი, რომელიც სამუშაო სივრცეს არ შეესაბამება.\nჩაშენებული: {embedded}\nსამუშაო: {working}
+	Importing {what} from {file}…	{file}-დან {what}-ის იმპორტი…
+	brushes	ფუნჯები
+	gradients	გრადიენტები
+@plural	Imported {n} brush from {file}|Imported {n} brushes from {file}	{file}-დან იმპორტირებულია ფუნჯი: {n}
+@plural	Imported {n} gradient from {file}|Imported {n} gradients from {file}	{file}-დან იმპორტირებულია გრადიენტი: {n}
+	Data Set: {name}  ({index}/{total})	მონაცემთა ნაკრები: {name}  ({index}/{total})
+	(none)	(არცერთი)
+navigator	Zoom	მასშტაბი
+	Apply {option}: {state}	{option}-ის გამოყენება: {state}
+	on	ჩართული
+	off	გამორთული
+	This adjustment ({key}) is kept as imported and can't be edited yet.	ეს კორექცია ({key}) შენარჩუნებულია იმპორტირებული სახით და ჯერ ვერ რედაქტირდება.
+	Join the ArtCraft Discord ({url})	შემოუერთდით ArtCraft-ის Discord-ს ({url})
+	{index} of {total}	{index} / {total}
+	{shortcut} assigned.	{shortcut} მინიჭებულია.
+	{shortcut} is already in use by {commands} and will be removed from it when you click OK.	{shortcut} უკვე გამოიყენება ბრძანებისთვის {commands} და OK-ზე დაწკაპუნებისას იქიდან მოიხსნება.
+	Kerning: Metrics, Optical or a value in 1/1000 em (Alt+←/→ at the caret)	კერნინგი: მეტრიკა, ოპტიკური ან მნიშვნელობა em-ის 1/1000-ში (Alt+←/→ კურსორთან)
+	Basic Latin	საბაზო ლათინური
+	Latin 1	ლათინური 1
+	Latin Extended-A	ლათინური გაფართოებული-A
+	Latin Extended-B	ლათინური გაფართოებული-B
+	Greek	ბერძნული
+	Cyrillic	კირილიცა
+	Numbers	ციფრები
+	Currency	ვალუტა
+	Math Symbols	მათემატიკური სიმბოლოები
+	Arrows	ისრები
+	Save Path	ტრაექტორიის შენახვა
+cameraRaw	Highlights	ღია ტონები
+cameraRaw	Shadows	ჩრდილები
+	Temporary	დროებითი
+	none	არცერთი
+	red	წითელი
+	orange	ნარინჯისფერი
+	yellow	ყვითელი
+	green	მწვანე
+	blue	ლურჯი
+	violet	იისფერი
+	gray	ნაცრისფერი
+	Working Rgb	სამუშაო RGB
+	Working Cmyk	სამუშაო CMYK
+	Working Gray	სამუშაო ნაცრისფერი
+	Policy Rgb	RGB-ის წესი
+	Policy Cmyk	CMYK-ის წესი
+	Policy Gray	ნაცრისფერის წესი
+	Convert	გარდაქმნა
+	Ask On Mismatch	შეუსაბამობისას შეკითხვა
+	Ask On Paste	ჩასმისას შეკითხვა
+	Ask On Missing	არარსებობისას შეკითხვა
+	Intent	განზრახვა
+	Bpc	შავი წერტილის კომპენსაცია
+	Blend Text Gamma	ტექსტის ფერების შერევა გამით
+	Monitor Profile	მონიტორის პროფილი
+	Display-p3	Display P3
+	Adobe-rgb-compat	Adobe RGB-თავსებადი
+	Prophoto-compat	ProPhoto-თავსებადი
+	Linear-srgb	წრფივი sRGB
+	Rec2020	Rec. 2020
+	Coated-cmyk	ცარცული ქაღალდის CMYK
+	Sgray	sGray
+	Gray-gamma-2.2	Gray Gamma 2.2
+cameraRaw	Effects	ეფექტები
+cameraRaw	Exposure	ექსპოზიცია
+cameraRaw	Contrast	კონტრასტი
+cameraRaw	Texture	ტექსტურა
+cameraRaw	Clarity	სიცხადე
+cameraRaw	Dehaze	ბურუსის მოცილება
+cameraRaw	Saturation	გაჯერება
+cameraRaw	Curve	მრუდი
+cameraRaw	Color Mixer	ფერების მიქშერი
+cameraRaw	Midtones	შუალედური ტონები
+cameraRaw	Balance	ბალანსი
+cameraRaw	Detail	დეტალი
+cameraRaw	Radius	რადიუსი
+cameraRaw	Feather	კიდეების შერბილება
+cameraRaw	Midpoint	შუა წერტილი
+cameraRaw	Roundness	სიმრგვალე
+cameraRaw	Size	ზომა
+document	Orientation	ორიენტაცია
+	Arc Lower	ქვედა რკალი
+	Arc Upper	ზედა რკალი
+	Forward Warp	წინ დეფორმაცია
+	Twirl Clockwise	საათის ისრის მიმართულებით დაგრეხა
+	Twirl Counterclockwise	საათის ისრის საწინააღმდეგოდ დაგრეხა
+	Pucker	შეკუმშვა
+	Bloat	გაბერვა
+	Push Left	მარცხნივ გაწევა
+	Freeze Mask	ნიღბით გაყინვა
+	Thaw Mask	ნიღბის გალღობა
+	Freeze Lasso	გაყინვა ლასოთი
+	Reconstruct All	ყველაფრის რეკონსტრუქცია
+	Mask None	ნიღბის მოხსნა
+colorRange	Invert	ინვერსია
+layers	Fill	შევსება
+layers	Fill:	შევსება:
+shape	Appearance	იერსახე
+	Export As: {n} layers	ექსპორტი სხვა ფორმატით: შრე: {n}
+	Exported {n} files	ექსპორტირებულია ფაილი: {n}
