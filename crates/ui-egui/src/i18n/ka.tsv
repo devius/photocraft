@@ -38,7 +38,7 @@
 	Edit	რედაქტირება
 	Image	გამოსახულება
 	Layer	შრე
-	Type	ტიპოგრაფია
+	Type	ტექსტი
 	Select	მონიშვნა
 	Selected	მონიშნული
 	Scope	მოქმედების არე
@@ -84,7 +84,7 @@
 	Layer Comps to Files…	შრეების კომპოზიციები ფაილებად…
 	Color Lookup Tables…	ფერების ცხრილები (Color Lookup)…
 	Data Sets as Files…	მონაცემთა ნაკრებები ფაილებად…
-	Paths to Illustrator…	კონტურები Illustrator-ში…
+	Paths to Illustrator…	ტრაექტორიები Illustrator-ში…
 	Render Video…	ვიდეოს რენდერი…
 	Generate	გენერირება
 	Image Assets	გამოსახულების რესურსები
@@ -123,12 +123,12 @@
 	Cut	ამოჭრა
 	Copy	კოპირება
 	Copy Merged	შერწყმულის კოპირება
-	Paste	ჩაწებება
-	Paste Special	სპეციალური ჩაწებება
-	Paste in Place	ადგილზე ჩაწებება
-	Paste Into	შიგნით ჩაწებება
-	Paste Outside	გარეთ ჩაწებება
-	Paste Lorem Ipsum	Lorem Ipsum-ის ჩაწებება
+	Paste	ჩასმა
+	Paste Special	სპეციალური ჩასმა
+	Paste in Place	ადგილზე ჩასმა
+	Paste Into	შიგნით ჩასმა
+	Paste Outside	გარეთ ჩასმა
+	Paste Lorem Ipsum	Lorem Ipsum-ის ჩასმა
 	Clear	გასუფთავება
 	Search…	ძებნა…
 	Check Spelling…	მართლწერის შემოწმება…
@@ -161,9 +161,9 @@
 	Auto-Align Layers…	შრეების ავტოსწორება…
 	Auto-Blend Layers…	შრეების ავტოშერევა…
 	Define Brush Preset…	ფუნჯის პრესეტის განსაზღვრა…
-	Define Pattern…	ორნამენტის განსაზღვრა…
+	Define Pattern…	პატერნის განსაზღვრა…
 	Define Custom Shape…	მომხმარებლის ფიგურის განსაზღვრა…
-	Purge	გასუფთავება
+	Purge	გაწმენდა
 	Clipboard	გაცვლის ბუფერი
 	Histories	ისტორიები
 	Video Cache	ვიდეოს ქეში
@@ -193,7 +193,7 @@
 	Units & Rulers…	ერთეულები და სახაზავები…
 	Guides, Grid & Slices…	დამხმარე ხაზები, ბადე და ნაჭრები…
 	Plug-ins…	დანამატები…
-	Type…	ტიპოგრაფია…
+	Type…	ტექსტი…
 	Enhanced Controls…	გაუმჯობესებული მართვის ელემენტები…
 	Camera Raw…	Camera Raw…
 	Raw Defaults…	Raw-ის ნაგულისხმევი პარამეტრები…
@@ -302,11 +302,11 @@
 	Satin…	ატლასი…
 	Color Overlay…	ფერის გადაფარვა…
 	Gradient Overlay…	გრადიენტის გადაფარვა…
-	Pattern Overlay…	ორნამენტის გადაფარვა…
+	Pattern Overlay…	პატერნის გადაფარვა…
 	Outer Glow…	გარე ნათება…
 	Drop Shadow…	ჩრდილი…
 	Copy Layer Style	შრის სტილის კოპირება
-	Paste Layer Style	შრის სტილის ჩაწებება
+	Paste Layer Style	შრის სტილის ჩასმა
 	Clear Layer Style	შრის სტილის გასუფთავება
 	Global Light…	გლობალური განათება…
 	Hide All Effects	ყველა ეფექტის დამალვა
@@ -319,7 +319,7 @@
 	Disable Filter Mask	ფილტრის ნიღბის გამორთვა
 	Solid Color…	ერთფეროვანი ფერი…
 	Gradient…	გრადიენტი…
-	Pattern…	ორნამენტი…
+	Pattern…	პატერნი…
 	Layer Mask	შრის ნიღაბი
 	Vector Mask	ვექტორული ნიღაბი
 	Reveal Selection	მონიშნულის გამოჩენა
@@ -334,7 +334,7 @@
 	Unlink Layer Mask	შრის ნიღბის კავშირის გაწყვეტა
 	Link Vector Mask	ვექტორული ნიღბის დაკავშირება
 	Add Vector Mask	ვექტორული ნიღბის დამატება
-	Vector Mask from Current Path	ვექტორული ნიღაბი მიმდინარე კონტურიდან
+	Vector Mask from Current Path	ვექტორული ნიღაბი მიმდინარე ტრაექტორიიდან
 	Create Clipping Mask	ჩაჭრის ნიღბის შექმნა
 	Release Clipping Mask	ჩაჭრის ნიღბის მოხსნა
 	Smart Objects	ჭკვიანი ობიექტები
@@ -458,7 +458,7 @@
 	Ornaments	ორნამენტები
 	Ordinals	რიგობითი რიცხვები
 	Fractions	წილადები
-	Create Work Path	სამუშაო კონტურის შექმნა
+	Create Work Path	სამუშაო ტრაექტორიის შექმნა
 	Convert to Shape	ფიგურად გარდაქმნა
 	Warp Text…	ტექსტის დეფორმაცია…
 	Convert to Point Text	წერტილოვან ტექსტად გარდაქმნა
@@ -515,7 +515,7 @@
 	Field Blur…	ველის გაბუნდოვნება…
 	Iris Blur…	დიაფრაგმის გაბუნდოვნება…
 	Tilt-Shift…	დახრა-წანაცვლება…
-	Path Blur…	კონტურის გასწვრივ გაბუნდოვნება…
+	Path Blur…	ტრაექტორიის გასწვრივ გაბუნდოვნება…
 	Spin Blur…	ბრუნვითი გაბუნდოვნება…
 	Blur More	მეტად გაბუნდოვნება
 	Box Blur…	ბლოკური გაბუნდოვნება…
@@ -636,8 +636,8 @@
 	Show	ჩვენება
 	Extras	დამატებითი ელემენტები
 	Selection Edges	მონიშნულის კიდეები
-	Target Path	სამიზნე კონტური
-	Current Path	მიმდინარე კონტური
+	Target Path	სამიზნე ტრაექტორია
+	Current Path	მიმდინარე ტრაექტორია
 	Grid	ბადე
 	Guides	დამხმარე ხაზები
 	Canvas Guides	ტილოს დამხმარე ხაზები
@@ -649,7 +649,7 @@
 	Pixel Grid	პიქსელური ბადე
 	Pixel Art	პიქსელ-არტი
 	Pixel Art Preview	პიქსელ-არტის გადახედვა
-	Pattern Preview	ორნამენტის გადახედვა
+	Pattern Preview	პატერნის გადახედვა
 	Brush Preview	ფუნჯის გადახედვა
 	Mesh	ბადისებრი ქსელი
 	Edit Pins	სამაგრების რედაქტირება
@@ -731,8 +731,8 @@
 	Options	პარამეტრები
 	Paragraph	აბზაცი
 	Paragraph Styles	აბზაცის სტილები
-	Paths	კონტურები
-	Patterns	ორნამენტები
+	Paths	ტრაექტორიები
+	Patterns	პატერნები
 	Properties	თვისებები
 	Shapes	ფიგურები
 	Styles	სტილები
@@ -949,8 +949,8 @@
 	Create new gradient	ახალი გრადიენტის შექმნა
 	Create new group	ახალი ჯგუფის შექმნა
 	Create new layer comp	შრეების ახალი კომპოზიციის შექმნა
-	Create new pattern from the selection	ახალი ორნამენტის შექმნა მონიშნულიდან
-	Create new shape from the current path	ახალი ფიგურის შექმნა მიმდინარე კონტურიდან
+	Create new pattern from the selection	ახალი პატერნის შექმნა მონიშნულიდან
+	Create new shape from the current path	ახალი ფიგურის შექმნა მიმდინარე ტრაექტორიიდან
 	Create new snapshot	ახალი სნეპშოტის შექმნა
 	Create new style (from the selected type)	ახალი სტილის შექმნა (მონიშნული ტექსტიდან)
 	Create new style from the selected layer	ახალი სტილის შექმნა მონიშნული შრიდან
@@ -1012,7 +1012,7 @@
 	Description	აღწერა
 	Deselect All	ყველაფრის მონიშვნის მოხსნა
 	Detail	დეტალი
-	Diamond Gradient	რომბისებრი გრადიენტი
+	Diamond Gradient	ბრილიანტისებრი გრადიენტი
 	Difference	სხვაობა
 	Diffusion	დიფუზია
 	Discard the embedded profile (don't color manage)	ჩაშენებული პროფილის უგულებელყოფა (ფერების მართვის გარეშე)
@@ -1031,9 +1031,9 @@
 	Dots	წერტილები
 	Drag a rectangle around the object	ობიექტის გარშემო მართკუთხედი გაავლეთ
 	Drag on the image to add a constraint; Shift for horizontal/vertical; right-click to delete.	შეზღუდვის დასამატებლად გამოსახულებაზე გაავლეთ; Shift — ჰორიზონტალური/ვერტიკალური; წასაშლელად — მარჯვენა დაწკაპუნება.
-	Drag to move the active shape's path or the Work Path	გადაათრიეთ აქტიური ფიგურის კონტურის ან სამუშაო კონტურის გადასაადგილებლად
-	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	დაწკაპუნება: საყრდენი წერტილის მონიშვნა · გადათრევა: საყრდენი წერტილის, სახელურის ან სეგმენტის გადაადგილება · {shift}-დაწკაპუნება: დამატება · {alt}-დაწკაპუნება: მთელი ქვეკონტური
-	Draw with the Pen tool (P) or make a work path from a selection.	დახაზეთ კალმით (P) ან შექმენით სამუშაო კონტური მონიშნულიდან.
+	Drag to move the active shape's path or the Work Path	გადაათრიეთ აქტიური ფიგურის ტრაექტორიის ან სამუშაო ტრაექტორიის გადასაადგილებლად
+	Click: select anchor · Drag: move anchor, handle or segment · {shift}-click: add · {alt}-click: whole subpath	დაწკაპუნება: საყრდენი წერტილის მონიშვნა · გადათრევა: საყრდენი წერტილის, სახელურის ან სეგმენტის გადაადგილება · {shift}-დაწკაპუნება: დამატება · {alt}-დაწკაპუნება: მთელი ქვეტრაექტორია
+	Draw with the Pen tool (P) or make a work path from a selection.	დახაზეთ კალმით (P) ან შექმენით სამუშაო ტრაექტორია მონიშნულიდან.
 	Drop an image or PSD anywhere to open it.	გასახსნელად ჩააგდეთ გამოსახულება ან PSD ნებისმიერ ადგილას.
 	Duplicate Layers…	შრეების დუბლირება…
 	Duplicate style	სტილის დუბლირება
@@ -1116,7 +1116,7 @@
 	Highlight Compression	ღია ტონების შეკუმშვა
 	Highlight Priority	ღია ტონების პრიორიტეტი
 	Highlights	ღია ტონები
-	Home	მთავარი
+	Home	საწყისი ეკრანი
 	Horizontal scale	ჰორიზონტალური მასშტაბი
 	Hue	ფერის ტონი
 	Hue Jitter	ფერის ტონის ცვალებადობა
@@ -1166,7 +1166,7 @@
 	Level	დონე
 	Levels	დონეები
 	Lighten	გაღიავება
-	Lightness	სიღია
+	Lightness	სიღიავე
 	Lights	ნათელი ტონები
 	Limits:	საზღვრები:
 	Linear Gradient	წრფივი გრადიენტი
@@ -1265,12 +1265,12 @@
 	Override Tilt	დახრის უგულებელყოფა
 	PRESET DETAILS	პრესეტის დეტალები
 	PSD	PSD
-	Paint Overlay	გადაფარვის შეღებვა
+	Paint Overlay	საღებავით გადაფარვა
 	Panel locations are saved in the workspace. Keyboard shortcuts, menus and toolbar are optional.	პანელების მდებარეობა ინახება სამუშაო სივრცეში. კლავიატურის მალსახმობები, მენიუები და ხელსაწყოთა ზოლი არასავალდებულოა.
 	Paper	ქაღალდი
-	Path	კონტური
-	Pattern	ორნამენტი
-	Pattern Size	ორნამენტის ზომა
+	Path	ტრაექტორია
+	Pattern	პატერნი
+	Pattern Size	პატერნის ზომა
 	Pause	პაუზა
 	Percent	პროცენტი
 	Perceptual	აღქმითი
@@ -1517,7 +1517,7 @@
 	Width	სიგანე
 	Slant	დახრა
 	Width:	სიგანე:
-	Work Path	სამუშაო კონტური
+	Work Path	სამუშაო ტრაექტორია
 	Yellow	ყვითელი
 	Yellow  ·  Blue	ყვითელი  ·  ლურჯი
 	Zoom	მასშტაბი
@@ -1583,7 +1583,7 @@
 	Cyans	ცისფრები
 	Default PhotoCraft Size	ნაგულისხმევი ზომა
 	Delete Workspace	სამუშაო სივრცის წაშლა
-	Diamond	რომბი
+	Diamond	ბრილიანტი
 	Dimensions:	ზომები:
 	Direction	მიმართულება
 	Distance	მანძილი
@@ -1643,7 +1643,7 @@
 	Lasso Tool	ლასო
 	Layer Count	შრეების რაოდენობა
 	Layer Knocks Out Drop Shadow	შრე ჩრდილს ამოკვეთს
-	Legal	Legal
+	Legal	იურიდიული ინფორმაცია
 	Letter	Letter
 	Light	ღია
 	Line Tool	ხაზის ხელსაწყო
@@ -1680,13 +1680,13 @@
 	Overlay	გადაფარვა
 	Paint Bucket Tool	საღებავის ვედრო
 	Paints from the document's opening state	ხატავს დოკუმენტის გახსნისდროინდელი მდგომარეობიდან
-	Path Selection Tool	კონტურის მონიშვნის ხელსაწყო
+	Path Selection Tool	ტრაექტორიის მონიშვნის ხელსაწყო
 	Direct Selection Tool	პირდაპირი მონიშვნის ხელსაწყო
 	Add Anchor Point Tool	საყრდენი წერტილის დამატების ხელსაწყო
 	Delete Anchor Point Tool	საყრდენი წერტილის წაშლის ხელსაწყო
 	Click a segment to add an anchor point · {alt}-click an anchor to delete it	საყრდენი წერტილის დასამატებლად დააწკაპუნეთ სეგმენტზე · წასაშლელად — {alt}-დაწკაპუნება საყრდენ წერტილზე
 	Click an anchor point to delete it · {alt}-click a segment to add one	წასაშლელად დააწკაპუნეთ საყრდენ წერტილზე · დასამატებლად — {alt}-დაწკაპუნება სეგმენტზე
-	Pattern Overlay	ორნამენტის გადაფარვა
+	Pattern Overlay	პატერნის გადაფარვა
 	Pen Pressure	კალმის დაწოლა
 	Pen Tilt	კალმის დახრა
 	Pen Tool	კალამი
@@ -2082,13 +2082,13 @@
 	Anti-aliasing method	დაგლუვების მეთოდი
 	Horizontal type	ჰორიზონტალური ტექსტი
 	Vertical type	ვერტიკალური ტექსტი
-	Fill path with foreground color	კონტურის წინა პლანის ფერით შევსება
-	Stroke path with brush	კონტურის ფუნჯით შემოხაზვა
-	Load path as a selection	კონტურის მონიშნულად ჩატვირთვა
-	Make work path from selection	მონიშნულიდან სამუშაო კონტურის შექმნა
+	Fill path with foreground color	ტრაექტორიის წინა პლანის ფერით შევსება
+	Stroke path with brush	ტრაექტორიის ფუნჯით შემოხაზვა
+	Load path as a selection	ტრაექტორიის მონიშნულად ჩატვირთვა
+	Make work path from selection	მონიშნულიდან სამუშაო ტრაექტორიის შექმნა
 	Add vector mask	ვექტორული ნიღბის დამატება
-	Create new path	ახალი კონტურის შექმნა
-	Delete path	კონტურის წაშლა
+	Create new path	ახალი ტრაექტორიის შექმნა
+	Delete path	ტრაექტორიის წაშლა
 	Delete vector mask	ვექტორული ნიღბის წაშლა
 	CPU (no GPU acceleration)	CPU (GPU-აჩქარების გარეშე)
 	DirectX 12	DirectX 12
@@ -2100,7 +2100,7 @@
 	Use tablet pressure	პლანშეტის დაწოლის გამოყენება
 	Vulkan	Vulkan
 	Alt-click to define a source point to clone from	Alt+დაწკაპუნებით მიუთითეთ კლონირების საწყისი წერტილი
-	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	მონიშნულის შესაქმნელად კონტური არ არის: დახაზეთ კალმით ან მონიშნეთ კონტურების პანელში.
+	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	მონიშნულის შესაქმნელად ტრაექტორია არ არის: დახაზეთ კალმით ან მონიშნეთ ტრაექტორიების პანელში.
 	Cancel opening	გახსნის გაუქმება
 	Cancelled opening {name}	{name}-ის გახსნა გაუქმდა
 	Developing {name}	მუშავდება {name}
@@ -2131,7 +2131,7 @@
 	Chrome	ქრომი
 	Conté Crayon	კონტეს ფანქარი
 	Graphic Pen	გრაფიკული კალამი
-	Halftone Pattern	ნახევარტონური ორნამენტი
+	Halftone Pattern	ნახევარტონური პატერნი
 	Note Paper	ქაღალდი ჩანაწერებისთვის
 	Photocopy	ფოტოასლი
 	Plaster	თაბაშირი
@@ -2159,7 +2159,7 @@
 	Magnetic Lasso	მაგნიტური ლასო
 	History Brush	ისტორიის ფუნჯი
 	Art History Brush	მხატვრული ისტორიის ფუნჯი
-	Pattern Stamp	ორნამენტის შტამპი
+	Pattern Stamp	პატერნის შტამპი
 	Spot Healing	წერტილოვანი აღდგენა
 	Red Eye	წითელი თვალები
 	Patch	საკერებელი
@@ -2292,16 +2292,16 @@
 	Digits	ციფრები
 	Symbols	სიმბოლოები
 	Punctuation	პუნქტუაცია
-	Path:	კონტური:
-	Path to Illustrator…	კონტური Illustrator-ისთვის…
-	Make Work Path	სამუშაო კონტურის შექმნა
+	Path:	ტრაექტორია:
+	Path to Illustrator…	ტრაექტორია Illustrator-ისთვის…
+	Make Work Path	სამუშაო ტრაექტორიის შექმნა
 	Make Selection	მონიშნულის შექმნა
-	Fill Path	კონტურის შევსება
-	Stroke Path	კონტურის შემოხაზვა
-	Clipping Path	ჩაჭრის კონტური
-	New Path	ახალი კონტური
-	Duplicate Path	კონტურის დუბლირება
-	Delete Path	კონტურის წაშლა
+	Fill Path	ტრაექტორიის შევსება
+	Stroke Path	ტრაექტორიის შემოხაზვა
+	Clipping Path	ჩაჭრის ტრაექტორია
+	New Path	ახალი ტრაექტორია
+	Duplicate Path	ტრაექტორიის დუბლირება
+	Delete Path	ტრაექტორიის წაშლა
 	Auto-Hide	ავტომატური დამალვა
 	W	W
 	H	H
@@ -2437,7 +2437,7 @@
 	Desaturate Monitor Colors By	მონიტორის ფერების გაუფერულება:
 	Blend RGB Colors Using Gamma 1.0	RGB ფერების შერევა გამით 1.0
 	Profile Mismatches: Ask When Opening	პროფილების შეუსაბამობა: გახსნისას შეკითხვა
-	Ask When Pasting	ჩაწებებისას შეკითხვა
+	Ask When Pasting	ჩასმისას შეკითხვა
 	Missing Profiles: Ask When Opening	აკლია პროფილები: გახსნისას შეკითხვა
 	Embed profiles	პროფილების ჩაშენება
 	Ask Before Saving Saved Embedded	შენახვამდე შეკითხვა ჩაშენებული პროფილის შესახებ
@@ -2550,7 +2550,7 @@
 	Commit transform (↩)	გარდაქმნის დადასტურება (↩)
 	Commit warp (↩)	დეფორმაციის დადასტურება (↩)
 	Create a new layer  (⇧⌘N)	ახალი შრის შექმნა  (⇧⌘N)
-	Custom pattern	მორგებული ორნამენტი
+	Custom pattern	მორგებული პატერნი
 	General Brushes	ზოგადი ფუნჯები
 	Grid  (⌘')	ბადე  (⌘')
 	Intersect with selection  (⇧⌥)	მონიშნულთან გადაკვეთა  (⇧⌥)
@@ -2585,11 +2585,11 @@
 	Floating point	მცურავი წერტილი
 	Use Global Light	გლობალური განათების გამოყენება
 	Native file drag-and-drop is unavailable	ფაილების სისტემური გადათრევა მიუწვდომელია
-	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	ფაილების სისტემური გადათრევა Wayland-ზე ჯერ მხარდაჭერილი არ არის. გამოიყენეთ ფაილი › გახსნა, ან დააკოპირეთ სურათი ფაილების მენეჯერში და ჩააწებეთ {paste}-ით.
+	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	ფაილების სისტემური გადათრევა Wayland-ზე ჯერ მხარდაჭერილი არ არის. გამოიყენეთ ფაილი › გახსნა, ან დააკოპირეთ სურათი ფაილების მენეჯერში და ჩასვით {paste}-ით.
 	To drop files, start PhotoCraft under XWayland: `{command}`	ფაილების ჩასაგდებად გაუშვით PhotoCraft XWayland-ში: `{command}`
 	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	ან დააყენეთ პარამეტრები › წარმადობა › Linux-ის ეკრანის სერვერი X11-ზე: მაშინ PhotoCraft ყოველთვის XWayland-ში გაეშვება.
-	Edit › Paste	რედაქტირება › ჩაწებება
-	Use File › Open, or paste a copied image with {paste}.	გამოიყენეთ ფაილი › გახსნა, ან ჩააწებეთ დაკოპირებული სურათი {paste}-ით.
+	Edit › Paste	რედაქტირება › ჩასმა
+	Use File › Open, or paste a copied image with {paste}.	გამოიყენეთ ფაილი › გახსნა, ან ჩასვით დაკოპირებული სურათი {paste}-ით.
 	Mixer Brush Tool	შემრევი ფუნჯი
 	Color Replacement Tool	ფერის ჩანაცვლების ხელსაწყო
 	Invalid {mode} profile	{mode} პროფილი არასწორია
@@ -2658,7 +2658,7 @@ cameraRaw	Luminance Detail	სიკაშკაშის დეტალებ�
 cameraRaw	Color Detail	ფერის დეტალები
 cameraRaw	Roughness	უხეშობა
 cameraRaw	Whites	თეთრები
-	No patterns	ორნამენტები არ არის
+	No patterns	პატერნები არ არის
 	Enable {name}	{name}-ის ჩართვა
 	Hold Alt while drawing for straight segments	სწორი მონაკვეთებისთვის ხაზვისას დააჭირეთ Alt-ს
 	Drag or click polygon points · hold Alt during lasso for straight segments · {add} add · {sub} before drawing subtracts	გადაათრიეთ ან დააწკაპუნეთ მრავალკუთხედის წერტილებზე · სწორი მონაკვეთებისთვის ლასოს დროს დააჭირეთ Alt-ს · {add} დამატება · {sub} ხაზვამდე — გამოკლება
@@ -2752,7 +2752,7 @@ cameraRaw	Whites	თეთრები
 
 # Fill dialog, layer style contours and Image Size
 	Contents:	შიგთავსი:
-	Custom Pattern:	მორგებული ორნამენტი:
+	Custom Pattern:	მორგებული პატერნი:
 	Foreground Color	წინა პლანის ფერი
 	Color…	ფერი…
 	50% Gray	50% ნაცრისფერი
@@ -2816,7 +2816,7 @@ fontWeight	Black	შავი
 fontWeight	Italic	დახრილი
 
 # Pattern Stamp tool
-	Pattern Stamp Tool	ორნამენტის შტამპი
+	Pattern Stamp Tool	პატერნის შტამპი
 	Impressionist	იმპრესიონისტული
 	Rotate View Tool	ხედის შემობრუნების ხელსაწყო
 	Reset View	ხედის ჩამოყრა
@@ -2922,7 +2922,7 @@ fontWeight	Italic	დახრილი
 	Add pair	წყვილის დამატება
 	Remove pair	წყვილის წაშლა
 	Dash offset	ტირის წანაცვლება
-	Open paths use centered strokes	ღია კონტურების კონტური ცენტრირებულია
+	Open paths use centered strokes	ღია ტრაექტორიების კონტური ცენტრირებულია
 	Use finite lengths and a positive pattern total	გამოიყენეთ სასრული სიგრძეები და დადებითი ჯამური ნიმუში
 	No subject found — try Object Selection or the Lasso	ობიექტი ვერ მოიძებნა — სცადეთ ობიექტის მონიშვნა ან ლასო
 	Quick Selection found nothing there	სწრაფმა მონიშვნამ იქ ვერაფერი იპოვა
@@ -2972,8 +2972,8 @@ cameraData	Lens	ობიექტივი
 	Show Grid	ბადის ჩვენება
 	Drag a box or click four corners · drag the corners onto the edges of a skewed shape · {commit} commits · Esc cancels	გადაათრიეთ ჩარჩო ან დააწკაპუნეთ ოთხ კუთხეზე · კუთხეები დახრილი ფიგურის კიდეებზე გადაათრიეთ · {commit} ადასტურებს · Esc აუქმებს
 	Artboard Tool	არტბორდის ხელსაწყო
-	Make Portrait	პორტრეტულად
-	Make Landscape	ლანდშაფტურად
+	Make Portrait	ვერტიკალურად
+	Make Landscape	ჰორიზონტალურად
 	Add New Artboard	ახალი არტბორდის დამატება
 	Freeform Pen Tool	თავისუფალი კალამი
 	Curvature Pen Tool	მრუდის კალამი
@@ -3407,7 +3407,7 @@ layerLabel	No Color	ფერის გარეშე
 	Burlap	ტომრის ქსოვილი
 	Candle Light	სანთლის შუქი
 	Circle	წრე
-	Clumped	გროვებად
+	Clumped	შეჯგუფებული
 	Coarse Dots	მსხვილი წერტილები
 	Colored Pencil	ფერადი ფანქარი
 	Contrasty	კონტრასტული
@@ -3467,13 +3467,13 @@ layerLabel	No Color	ფერის გარეშე
 	Medium Strokes	საშუალო შტრიხები
 	Mono Contrast	მონოკონტრასტი
 	Mosaic Tiles	მოზაიკის ფილები
-	Multiple Flames Along Path	მრავალი ალი კონტურის გასწვრივ
+	Multiple Flames Along Path	მრავალი ალი ტრაექტორიის გასწვრივ
 	Multiple Flames One Direction	მრავალი ალი ერთი მიმართულებით
-	Multiple Flames Path Directions	მრავალი ალი კონტურის მიმართულებებით
+	Multiple Flames Path Directions	მრავალი ალი ტრაექტორიის მიმართულებებით
 	Multiple Flames Various Length	მრავალი ალი სხვადასხვა სიგრძით
 	Octagon	რვაკუთხედი
 	Odd Fields	კენტი ველები
-	One Flame Along Path	ერთი ალი კონტურის გასწვრივ
+	One Flame Along Path	ერთი ალი ტრაექტორიის გასწვრივ
 	Out From Center	ცენტრიდან გარეთ
 	Oval	ოვალი
 	Overlay Edge	კიდის გადაფარვა
@@ -3510,7 +3510,7 @@ layerLabel	No Color	ფერის გარეშე
 	Light Dark Balance	ღია-მუქის ბალანსი
 	Foreground Level	წინა პლანის დონე
 	Background Level	ფონის დონე
-	Pattern Type	ორნამენტის ტიპი
+	Pattern Type	პატერნის ტიპი
 	Image Balance	გამოსახულების ბალანსი
 	Darkness	სიმუქე
 	Fiber Length	ბოჭკოს სიგრძე
@@ -3624,7 +3624,7 @@ layerLabel	No Color	ფერის გარეშე
 	De-Interlace	სტრიქონთაშორისი წყობის მოცილება
 	Define Brush Preset	ფუნჯის პრესეტის განსაზღვრა
 	Define Custom Shape	საკუთარი ფიგურის განსაზღვრა
-	Define Pattern	ორნამენტის განსაზღვრა
+	Define Pattern	პატერნის განსაზღვრა
 	Defringe	კიდის შარავანდის მოცილება
 	Diffuse	დიფუზია
 	Diffuse Glow	გაბნეული ნათება
@@ -3682,8 +3682,8 @@ layerLabel	No Color	ფერის გარეშე
 	Open As	გახსნა როგორც
 	Package	შეფუთვა
 	Paint Daubs	საღებავის ლაქები
-	Path Blur	კონტურის გასწვრივ გაბუნდოვნება
-	Paths to Illustrator	კონტურები Illustrator-ში
+	Path Blur	ტრაექტორიის გასწვრივ გაბუნდოვნება
+	Paths to Illustrator	ტრაექტორიები Illustrator-ში
 	Photomerge	Photomerge
 	Picture Frame	სურათის ჩარჩო
 	Pinch	მოჭყლეტა
