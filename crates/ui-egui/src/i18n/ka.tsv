@@ -20,10 +20,10 @@
 	Rows	სტრიქონები
 	Number	რაოდენობა
 	Margin	არშია
-	Top:	ზემოდან:
-	Left:	მარცხნიდან:
-	Bottom:	ქვემოდან:
-	Right:	მარჯვნიდან:
+	Top:	ზემოთ:
+	Left:	მარცხნივ:
+	Bottom:	ქვემოთ:
+	Right:	მარჯვნივ:
 	Target:	სამიზნე:
 	Selected Artboards	მონიშნული სამუშაო დაფები
 	Center Columns	სვეტების ცენტრირება
@@ -125,7 +125,7 @@
 	Copy Merged	შერწყმულის კოპირება
 	Paste	ჩაწებება
 	Paste Special	სპეციალური ჩაწებება
-	Paste in Place	იმავე ადგილას ჩაწებება
+	Paste in Place	ადგილზე ჩაწებება
 	Paste Into	შიგნით ჩაწებება
 	Paste Outside	გარეთ ჩაწებება
 	Paste Lorem Ipsum	Lorem Ipsum-ის ჩაწებება
@@ -324,7 +324,7 @@
 	Vector Mask	ვექტორული ნიღაბი
 	Reveal Selection	მონიშნულის გამოჩენა
 	Hide Selection	მონიშნულის დამალვა
-	Hide All	ყველაფრის დამალვა
+	Hide All	ყველას დამალვა
 	From Transparency	გამჭვირვალობიდან
 	Delete Vector Mask	ვექტორული ნიღბის წაშლა
 	Enable Layer Mask	შრის ნიღბის ჩართვა
@@ -470,7 +470,7 @@
 	Update All Text Layers	ყველა ტექსტური შრის განახლება
 	Replace All Missing Fonts	ყველა ნაკლული შრიფტის ჩანაცვლება
 	Resolve Missing Fonts…	ნაკლული შრიფტების მოგვარება…
-	Font Preview Size	შრიფტის გადახედვის ზომა
+	Font Preview Size	შრიფტის წინასწარი ნახვის ზომა
 	None	არცერთი
 	Small	პატარა
 	Medium	საშუალო
@@ -659,7 +659,7 @@
 	Snap	მიბმა
 	Snap To	მიბმის ობიექტები
 	Lock Guides	დამხმარე ხაზების დაბლოკვა
-	Clear Guides	დამხმარე ხაზების წაშლა
+	Clear Guides	დამხმარე ხაზების გასუფთავება
 	Clear Selected Artboard Guides	მონიშნული სამუშაო დაფის დამხმარე ხაზების წაშლა
 	Clear Canvas Guides	ტილოს დამხმარე ხაზების წაშლა
 	New Guide…	ახალი დამხმარე ხაზი…
@@ -770,7 +770,7 @@
 	Absolute	აბსოლუტური
 	Absolute Colorimetric	აბსოლუტური კოლორიმეტრიული
 	Action	მოქმედება
-	Adaptive	ადაპტიური
+	Adaptive	ადაპტური
 	Adaptive Wide Angle isn't open	ადაპტიური ფართოკუთხა არ არის გახსნილი
 	Add	დამატება
 	Add Layer Mask	შრის ნიღბის დამატება
@@ -909,7 +909,7 @@
 	Color Priority	ფერის პრიორიტეტი
 	Color Range preview	ფერთა დიაპაზონის გადახედვა
 	Color:	ფერი:
-	Colorize	შეფერვა
+	Colorize	შეფერადება
 	Colors	ფერები
 	Commit Perspective Warp ({key})	პერსპექტიული დეფორმაციის დადასტურება ({key})
 	Commit Puppet Warp ({key})	მარიონეტული დეფორმაციის დადასტურება ({key})
@@ -925,7 +925,7 @@
 	Contrast	კონტრასტი
 	Control:	მართვა:
 	Convert document's colors to the working space	დოკუმენტის ფერების სამუშაო სივრცეში გარდაქმნა
-	Convert to sRGB	sRGB-ში გარდაქმნა
+	Convert to sRGB	sRGB-ად გარდაქმნა
 	Copies	ასლები
 	Copper	სპილენძი
 	Copyright	საავტორო უფლება
@@ -1121,7 +1121,7 @@
 	Hue	ტონი
 	Hue Jitter	ტონის ცვალებადობა
 	Hue/Saturation	ტონი/გაჯერება
-	Hyphenate	დამარცვლა
+	Hyphenate	სიტყვების გადატანა
 	Ignore	უგულებელყოფა
 	Ignore All	ყველას გამოტოვება
 	Image Size	გამოსახულების ზომა
@@ -1822,7 +1822,7 @@
 	Column width	სვეტის სიგანე
 	Concise	მოკლე
 	Control port	მართვის პორტი
-	Convert to srgb	sRGB-ში გარდაქმნა
+	Convert to srgb	sRGB-ად გარდაქმნა
 	Cursors	კურსორები
 	Custom dark	მორგებული ბნელი
 	Custom light	მორგებული ღია
@@ -2071,7 +2071,7 @@
 # Gradient Editor window, opened from the options bar's gradient swatch.
 	Gradient Editor	გრადიენტის რედაქტორი
 	Gradient picker	გრადიენტის ამრჩევი
-	Gradient stops	გრადიენტის საკონტროლო წერტილები
+	Gradient stops	გრადიენტის წერტილები
 	Save As Preset	მზა ნაკრებად შენახვა
 	The gradient the Gradient tool paints with	გრადიენტი, რომლითაც გრადიენტის ხელსაწყო ხატავს
 	Adds the current gradient to the Gradients panel	მიმდინარე გრადიენტის დამატება გრადიენტების პანელში
@@ -2274,7 +2274,7 @@
 	Condensed	შევიწროებული
 	First Line Indent	პირველი სტრიქონის შეწევა
 	Hanging Punctuation	ჩამოკიდებული პუნქტუაცია
-	Roman Hanging Punctuation	რომაული ჩამოკიდებული პუნქტუაცია
+	Roman Hanging Punctuation	ლათინური გამოწეული პუნქტუაცია
 	Avoid Widows/Orphans	ობოლი სტრიქონების თავიდან აცილება
 	Compose	აწყობა
 	Adobe Single-line Composer	Adobe-ის ერთსტრიქონიანი ამწყობი
@@ -2492,8 +2492,8 @@
 	Arc	რკალი
 	Arch	თაღი
 	Bulge	გამობერილობა
-	Shell Lower	ნიჟარა ქვემოთ
-	Shell Upper	ნიჟარა ზემოთ
+	Shell Lower	ქვედა ნიჟარა
+	Shell Upper	ზედა ნიჟარა
 	Flag	დროშა
 	Fish	თევზი
 	Wave	ტალღა
@@ -2719,7 +2719,7 @@ cameraRaw	Whites	თეთრები
 
 # Swatches panel
 	Create new swatch	ახალი ფერის ნიმუშის შექმნა
-	New Swatch…	ახალი ფერის ნიმუში…
+	New Swatch…	ფერის ახალი ნიმუში…
 	New Swatch Group…	ფერის ნიმუშების ახალი ჯგუფი…
 	Import Swatches…	ფერის ნიმუშების იმპორტი…
 	Replace Swatches…	ფერის ნიმუშების ჩანაცვლება…
@@ -2954,7 +2954,7 @@ cameraData	Lens	ობიექტივი
 	Dock Panel	პანელის მიმაგრება
 	Float Panel	პანელის მოცურება
 	Move Panel	პანელის გადაადგილება
-	Group with	დაჯგუფება პანელთან
+	Group with	ერთად დაჯგუფება
 	Panel menu	პანელის მენიუ
 	Resize panel window	პანელის ფანჯრის ზომის შეცვლა
 	Resize panels	პანელების ზომის შეცვლა
@@ -3051,7 +3051,7 @@ layerLabel	No Color	ფერის გარეშე
 	File Format	ფაილის ფორმატი
 	Compression	შეკუმშვა
 	Artboards	სამუშაო დაფები
-	Snap to Grid	ბადესთან მიბმა
+	Snap to Grid	ბადეზე მიბმა
 	Full Screen	მთელ ეკრანზე
 	Fullscreen	მთელ ეკრანზე
 	Workspaces	სამუშაო სივრცეები
@@ -3124,7 +3124,7 @@ layerLabel	No Color	ფერის გარეშე
 	Degrees	გრადუსი
 	Middle	შუა
 	Diameter	დიამეტრი
-	Intensity	ინტენსიურობა
+	Intensity	ინტენსივობა
 	Sensitivity	მგრძნობელობა
 	Softness	სირბილე
 	Feather Radius	გარბილების რადიუსი
@@ -3148,7 +3148,7 @@ layerLabel	No Color	ფერის გარეშე
 	Display	ეკრანი
 	Panel	პანელი
 	Hide Grid	ბადის დამალვა
-	Fit to Window	ფანჯარაში მორგება
+	Fit to Window	ფანჯარაზე მორგება
 	Live Preview	ცოცხალი გადახედვა
 	Before	მანამდე
 	After	შემდეგ
@@ -3280,7 +3280,7 @@ layerLabel	No Color	ფერის გარეშე
 	Center X	ცენტრი X
 	Center Y	ცენტრი Y
 	Distribution	განაწილება
-	Monochromatic	ერთფეროვანი
+	Monochromatic	მონოქრომული
 	Cell Size	უჯრის ზომა
 	Generators	გენერატორები
 	Wavelength Min	ტალღის სიგრძე მინ.
@@ -3357,24 +3357,24 @@ layerLabel	No Color	ფერის გარეშე
 	Highlight Strength	ღია ტონების სიძლიერე
 	Smoothness	სიგლუვე
 	Edge Thickness	კიდის სისქე
-	Edge Intensity	კიდის ინტენსიურობა
+	Edge Intensity	კიდის ინტენსივობა
 	Posterization	პოსტერიზაცია
 	Stroke Length	მონასმის სიგრძე
 	Relief	რელიეფი
 	Definition	სიცხადე
 	Texture Coverage	ტექსტურის დაფარვა
-	Shadow Intensity	ჩრდილის ინტენსიურობა
+	Shadow Intensity	ჩრდილის ინტენსივობა
 	Edge Width	კიდის სიგანე
 	Edge Brightness	კიდის სიკაშკაშე
 	Direction Balance	მიმართულების ბალანსი
-	Black Intensity	შავის ინტენსიურობა
-	White Intensity	თეთრის ინტენსიურობა
-	Dark Intensity	მუქის ინტენსიურობა
+	Black Intensity	შავის ინტენსივობა
+	White Intensity	თეთრის ინტენსივობა
+	Dark Intensity	მუქის ინტენსივობა
 	Custom Pixel Aspect Ratio	პიქსელის საკუთარი თანაფარდობა
 	32-bit Preview Options	32-ბიტიანი გადახედვის პარამეტრები
 	New Guide	ახალი დამხმარე ხაზი
 	Join the ArtCraft Discord	შემოუერთდით ArtCraft-ის Discord-ს
-	Report an Issue	პრობლემის შეტყობინება
+	Report an Issue	ხარვეზის შეტყობინება
 	Load Files into Stack	ფაილების დასტაში ჩატვირთვა
 	Statistics	სტატისტიკა
 	Duplicate Layers	შრეების დუბლირება
@@ -3453,7 +3453,7 @@ layerLabel	No Color	ფერის გარეშე
 	Hexagon	ექვსკუთხედი
 	Horizontal Only	მხოლოდ ჰორიზონტალური
 	Infinite	უსასრულო
-	Ink Outlines	ტუშის კონტურები
+	Ink Outlines	მელნის კონტურები
 	Ivy	სურო
 	Left Diagonal	მარცხენა დიაგონალი
 	Level Based	დონეზე დაფუძნებული
@@ -3495,7 +3495,7 @@ layerLabel	No Color	ფერის გარეშე
 	Short Lines	მოკლე ხაზები
 	Short Strokes	მოკლე მონასმები
 	Simple	მარტივი
-	Light Intensity	სინათლის ინტენსიურობა
+	Light Intensity	სინათლის ინტენსივობა
 	Spray Radius	შესხურების რადიუსი
 	Stroke Direction	მონასმის მიმართულება
 	Graininess	მარცვლოვნება
@@ -3627,7 +3627,7 @@ layerLabel	No Color	ფერის გარეშე
 	Define Pattern	ორნამენტის განსაზღვრა
 	Defringe	კიდის შარავანდის მოცილება
 	Diffuse	დიფუზია
-	Diffuse Glow	დიფუზიური ნათება
+	Diffuse Glow	გაბნეული ნათება
 	Displace	ჩანაცვლება რუკით
 	Do you want to save you made to “{name}” before quitting?	გსურთ „{name}“-ში შეტანილი ცვლილებების შენახვა გასვლამდე?
 	Dust & Scratches	მტვერი და ნაკაწრები
