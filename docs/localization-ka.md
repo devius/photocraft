@@ -15,7 +15,7 @@ locales `ka`, `ka-GE` and `ka_GE.UTF-8` resolve to Georgian.
 ## Register and style
 
 Commands are verbal nouns (masdar: *შენახვა*, *გახსნა*, *შრის წაშლა*), not imperatives; prompts
-and hints address the user politely (*დააწკაპუნეთ*, *გადაათრიეთ*). Product and technology names
+and hints address the user politely (*დაწკაპეთ*, *გადაათრიეთ*). Product and technology names
 (PhotoCraft, OpenType, CMYK, Lab) stay as they are, and the trailing `…` of dialog commands is kept.
 
 ## Georgian script
@@ -43,7 +43,7 @@ Follow this table when adding or changing Georgian strings.
 | Layer / Layers | შრე / შრეები | |
 | Selection | მონიშნული | the selected area; the menu is მონიშვნა |
 | Layer Mask / Vector Mask | შრის ნიღაბი / ვექტორული ნიღაბი | |
-| Clipping Mask | ჩაჭრის ნიღაბი | |
+| Clipping Mask | მომჭრელი ნიღაბი | |
 | Smart Object | ჭკვიანი ობიექტი | |
 | Rasterize | რასტრირება | |
 | Path / Work Path | ტრაექტორია / სამუშაო ტრაექტორია | not კონტური |
