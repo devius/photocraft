@@ -822,6 +822,16 @@ impl Tokens {
     }
 }
 
+/// An interface face supplied at run time, after every other face: the web shell fetches one
+/// served beside the page (Georgian, which the bundled faces lack and the browser can't lend).
+static RUNTIME_FALLBACK: std::sync::OnceLock<Vec<u8>> = std::sync::OnceLock::new();
+
+/// Add `bytes` (a font file) as the last interface fallback of later font installs; call
+/// [`install_fonts`] to use it now. Only the first call counts.
+pub fn set_runtime_fallback_font(bytes: Vec<u8>) {
+    let _ = RUNTIME_FALLBACK.set(bytes);
+}
+
 /// Register Inter (UI) and JetBrains Mono (numbers) plus named weights.
 pub fn install_fonts(ctx: &egui::Context) {
     install_fonts_with(ctx, crate::cjk_fonts::Sources::system());
@@ -857,6 +867,12 @@ pub fn install_fonts_with(ctx: &egui::Context, cjk: crate::cjk_fonts::Sources) {
         let mut stack: Vec<String> = primary.into_iter().collect();
         stack.extend(fallback.iter().cloned());
         fonts.families.insert(FontFamily::Name(fam.into()), stack);
+    }
+    if let Some(bytes) = RUNTIME_FALLBACK.get() {
+        fonts.font_data.insert("runtime-fallback".into(), Arc::new(FontData::from_static(bytes)));
+        for stack in fonts.families.values_mut() {
+            stack.push("runtime-fallback".into());
+        }
     }
     let size = ui_font_size(ctx);
     for (name, data) in &mut fonts.font_data {
