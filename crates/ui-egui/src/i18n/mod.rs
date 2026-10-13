@@ -23,7 +23,7 @@
 mod catalog;
 mod system;
 
-pub use system::system_lang;
+pub use system::{set_system_locales, system_lang};
 
 use std::cell::Cell;
 use std::sync::OnceLock;
