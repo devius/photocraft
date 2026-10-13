@@ -52,9 +52,20 @@ fn detect_system_tags() -> Vec<String> {
     std::panic::catch_unwind(|| bounded_tags(sys_locale::get_locales())).unwrap_or_default()
 }
 
+/// The browser has no locale probe here: the languages the web shell passed in
+/// ([`set_system_locales`]: `?lang=`, then `navigator.languages`).
 #[cfg(all(not(test), target_arch = "wasm32"))]
 fn detect_system_tags() -> Vec<String> {
-    Vec::new()
+    WEB_TAGS.get().cloned().unwrap_or_default()
+}
+
+#[cfg_attr(not(target_arch = "wasm32"), allow(dead_code))]
+static WEB_TAGS: std::sync::OnceLock<Vec<String>> = std::sync::OnceLock::new();
+
+/// Tell Auto the system's preferred languages, most preferred first (the web shell; the desktop
+/// asks the OS itself). Set before the first frame; only the first call counts.
+pub fn set_system_locales(tags: Vec<String>) {
+    let _ = WEB_TAGS.set(tags);
 }
 
 #[cfg(test)]

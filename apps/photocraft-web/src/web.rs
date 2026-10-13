@@ -43,6 +43,11 @@ type Served = Arc<Mutex<ServedFonts>>;
 
 pub fn start() {
     eframe::WebLogger::init(log::LevelFilter::Info).ok();
+    // Auto follows `?lang=` in the address, then the browser's languages; a language chosen in
+    // Preferences still wins.
+    let q = query();
+    let lang = q.trim_start_matches('?').split('&').find_map(|kv| kv.strip_prefix("lang=")).filter(|l| !l.is_empty()).map(str::to_string);
+    i18n::set_system_locales(lang.into_iter().chain(browser_languages()).collect());
     wasm_bindgen_futures::spawn_local(async {
         let Some(document) = web_sys::window().and_then(|w| w.document()) else {
             log::error!("no document");
