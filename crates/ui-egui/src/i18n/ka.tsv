@@ -2083,7 +2083,7 @@
 	Horizontal type	ჰორიზონტალური ტექსტი
 	Vertical type	ვერტიკალური ტექსტი
 	Fill path with foreground color	ტრაექტორიის წინა პლანის ფერით შევსება
-	Stroke path with brush	ტრაექტორიის ფუნჯით შემოხაზვა
+	Stroke path with brush	ტრაექტორიის კონტური ფუნჯით
 	Load path as a selection	ტრაექტორიის მონიშნულად ჩატვირთვა
 	Make work path from selection	მონიშნულიდან სამუშაო ტრაექტორიის შექმნა
 	Add vector mask	ვექტორული ნიღბის დამატება
@@ -2297,7 +2297,7 @@
 	Make Work Path	სამუშაო ტრაექტორიის შექმნა
 	Make Selection	მონიშნულის შექმნა
 	Fill Path	ტრაექტორიის შევსება
-	Stroke Path	ტრაექტორიის შემოხაზვა
+	Stroke Path	ტრაექტორიის კონტური
 	Clipping Path	ჩაჭრის ტრაექტორია
 	New Path	ახალი ტრაექტორია
 	Duplicate Path	ტრაექტორიის დუბლირება
@@ -3821,7 +3821,7 @@ layerLabel	No Color	ფერის გარეშე
 	Apply the removal ({key})	მოშორების გამოყენება ({key})
 	Strokes to remove: {n} (Enter applies, Esc cancels)	მოსაშორებელი შტრიხი: {n} (Enter — გამოყენება, Esc — გაუქმება)
 	Simulate Pressure	დაწოლის იმიტაცია
-	Stroke Path…	ტრაექტორიის შემოხაზვა…
+	Stroke Path…	ტრაექტორიის კონტური…
 	Background Eraser	ფონის საშლელი
 	Healing Brush	აღმდგენი ფუნჯი
 	Spot Healing Brush	წერტილოვანი აღმდგენი ფუნჯი
