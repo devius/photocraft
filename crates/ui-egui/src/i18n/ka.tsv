@@ -4159,3 +4159,70 @@ shape	Appearance	იერსახე
 @plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	ნაბიჯი, რომელსაც PhotoCraft-ში ჯერ შესატყვისი არ აქვს: {n}
 @plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	გამოტოვებული ნაბიჯი, რომელსაც Photoshop-ში შესატყვისი არ აქვს: {n}
 liquify	Rate	სიჩქარე
+
+# Sync 2026-10-14 (strings added upstream)
+	Choose Stack Mode:	აირჩიეთ დასტის რეჟიმი:
+	No pin selected	სამაგრი არ არის მონიშნული
+	Click the image to add a pin; drag a pin to move it, or its ring to change its blur. Delete removes the selected pin.	სამაგრის დასამატებლად დაწკაპეთ გამოსახულებაზე; სამაგრის გადასაადგილებლად გადაათრიეთ ის, გაბუნდოვნების შესაცვლელად კი — მისი რგოლი. Delete წაშლის მონიშნულ სამაგრს.
+	The document “{name}” does not have an embedded {mode} profile.	დოკუმენტს „{name}“ არ აქვს ჩაშენებული {mode} პროფილი.
+	The document “{name}” has an embedded color profile that does not match the current {mode} working space.	დოკუმენტს „{name}“ აქვს ჩაშენებული ფერის პროფილი, რომელიც მიმდინარე {mode} სამუშაო სივრცეს არ შეესაბამება.
+	Embedded: {embedded}	ჩაშენებული: {embedded}
+	Working: {working}	სამუშაო: {working}
+	Custom background color	ფონის მორგებული ფერი
+	Redrawing	გადახატვა
+	Starting serial	საწყისი რიგითი ნომერი
+	Presentation	ჩვენება
+@id	file.close	დახურვა
+@id	layer.layerMask.apply	გამოყენება
+@id	edit.clear	გასუფთავება
+layerLabel	Red	წითელი
+layerLabel	Magenta	მეწამული
+	Export As: {name}	ექსპორტი სხვა ფორმატით: {name}
+	Color Sampler Tool	ფერის სინჯის აღების ხელსაწყო
+	Proof Setup…	საცდელი ჩვენების პარამეტრები…
+	Toggle Layer Mask Overlay	შრის ნიღბის გადაფარვის გადართვა
+	Increase Type Size	ტექსტის ზომის გაზრდა
+	Decrease Type Size	ტექსტის ზომის შემცირება
+	Increase Type Size by 10	ტექსტის ზომის 10-ით გაზრდა
+	Decrease Type Size by 10	ტექსტის ზომის 10-ით შემცირება
+	Make Selection from Path	ტრაექტორიიდან მონიშნულის შექმნა
+	Target Composite Channel	კომპოზიტური არხის არჩევა
+	Target Channel 3	მე-3 არხის არჩევა
+	Target Channel 4	მე-4 არხის არჩევა
+	Target Channel 5	მე-5 არხის არჩევა
+	Target Channel 6	მე-6 არხის არჩევა
+	Target Channel 7	მე-7 არხის არჩევა
+	Target Channel 8	მე-8 არხის არჩევა
+	Target Channel 9	მე-9 არხის არჩევა
+	Fill with Foreground Color	წინა პლანის ფერით შევსება
+	Fill with Background Color	ფონის ფერით შევსება
+	Fill with Foreground Color, Preserve Transparency	წინა პლანის ფერით შევსება, გამჭვირვალობის შენარჩუნებით
+	Fill with Background Color, Preserve Transparency	ფონის ფერით შევსება, გამჭვირვალობის შენარჩუნებით
+	Decrease Brush Size	ფუნჯის ზომის შემცირება
+	Increase Brush Size	ფუნჯის ზომის გაზრდა
+	Decrease Brush Hardness	ფუნჯის სიხისტის შემცირება
+	Increase Brush Hardness	ფუნჯის სიხისტის გაზრდა
+	Hand Tool (hold)	ხელის ხელსაწყო (დაჭერით)
+	Zoom In (hold, drag to scrub)	გადიდება (დაჭერით; გადათრევა — მასშტაბის მდორე ცვლა)
+	Zoom Out (hold)	დაპატარავება (დაჭერით)
+	Erase with Brush or Pencil (hold)	ფუნჯით ან ფანქრით წაშლა (დაჭერით)
+	Author Title	ავტორის თანამდებობა
+	Copyright Url	საავტორო უფლებების URL
+	Title	სათაური
+	Working-cmyk	სამუშაო CMYK
+	Simulate Paper	ქაღალდის იმიტაცია
+	Warming Filter (85)	გამათბობელი ფილტრი (85)
+	Cw	საათის ისრის მიმართულებით
+	Ccw	საათის ისრის საწინააღმდეგოდ
+	Nearest	უახლოესი მეზობელი
+	R G B	RGB
+	Pattern Fill…	პატერნით შევსება…
+	Any	ნებისმიერი
+	Cmyk	CMYK
+	Dont Enlarge	გადიდების გარეშე
+	Change Find	ჩანაცვლება და ძებნა
+	Case Sensitive	რეგისტრის გათვალისწინებით
+	Whole Word	მთლიანი სიტყვა
+	Forward	წინ
+	Checkerboard	ჭადრაკის დაფა
+	browser preset storage timed out	ბრაუზერის პრესეტების საცავმა დროულად არ უპასუხა
