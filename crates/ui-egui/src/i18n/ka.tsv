@@ -4073,3 +4073,88 @@ layers	Fill:	შევსება:
 shape	Appearance	იერსახე
 	Export As: {n} layers	ექსპორტი სხვა ფორმატით: შრე: {n}
 	Exported {n} files	ექსპორტირებულია ფაილი: {n}
+# Added upstream (sync 2 2026-10-13)
+	A brush preset with this name already exists	ფუნჯის პრესეტი ამ სახელით უკვე არსებობს
+	Action playback stopped	მოქმედების შესრულება შეწყდა
+	Add Mask to Selection	ნიღბის მონიშნულში დამატება
+	Add Open Files	გახსნილი ფაილების დამატება
+	Add to Dictionary	ლექსიკონში დამატება
+	All shortcuts reset to Photoshop defaults.	ყველა მალსახმობი დაბრუნდა Photoshop-ის ნაგულისხმევზე.
+	Allow Continue	გაგრძელების დაშვება
+	Attempt to Automatically Align Source Images	წყარო გამოსახულებების ავტომატური სწორების მცდელობა
+	Auto Add/Delete	ავტომატური დამატება/წაშლა
+	Based On	საფუძველი
+	Bend	მოხრა
+	Capture Brush Size in Preset	ფუნჯის ზომის პრესეტში შენახვა
+	Channel Color	არხის ფერი
+	Choose a format that keeps it, such as Photoshop (PSD), or save a copy.	აირჩიეთ ფორმატი, რომელიც მას შეინარჩუნებს, მაგალითად Photoshop (PSD), ან შეინახეთ ასლი.
+	Choose a gradient file (.grd).	აირჩიეთ გრადიენტის ფაილი (.grd).
+	Clear Brush Controls	ფუნჯის პარამეტრების გასუფთავება
+	Color Indicates:	ფერი აღნიშნავს:
+	Copy Texture to Other Tools	ტექსტურის სხვა ხელსაწყოებში კოპირება
+	Create Smart Object after Loading Layers	შრეების ჩატვირთვის შემდეგ ჭკვიანი ობიექტის შექმნა
+	Default Photoshop Size	Photoshop-ის ნაგულისხმევი ზომა
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · {commit} commits · Esc cancels	გადაათრიეთ ჩამოჭრის ჩარჩო · შიგნით გადათრევით გადაადგილება · კიდეებით ზომის შეცვლა ({ratio} თანაფარდობა, {centre} ცენტრიდან) · Space — გადაადგილება ხაზვისას · {commit} — დადასტურება · Esc — გაუქმება
+	Drag to pan · Scroll to zoom · Double-click to fit	გადათრევა: გადაადგილება · გადახვევა: მასშტაბი · ორმაგი დაწკაპუნება: მორგება
+	Drag: draw freehand · Release on the start point: close	გადათრევა: თავისუფალი ხატვა · გაშვება საწყის წერტილზე: დახურვა
+	Enter a name for the brush preset	შეიყვანეთ ფუნჯის პრესეტის სახელი
+	Files	ფაილები
+	Gradient Preset Options	გრადიენტის პრესეტის პარამეტრები
+	Horizontal Distortion	ჰორიზონტალური დეფორმაცია
+	ICO is limited to 256 × 256 pixels	ICO შეზღუდულია 256 × 256 პიქსელით
+	Import .GRD	.GRD-ის იმპორტი
+	Import Photoshop brushes (.abr)	Photoshop-ის ფუნჯების იმპორტი (.abr)
+	Include Color	ფერის ჩართვა
+	Include Tool Settings	ხელსაწყოს პარამეტრების ჩართვა
+	Ink Characteristics	მელნის მახასიათებლები
+	Insert Stop…	შეჩერების ჩასმა…
+	Intersect Mask with Selection	ნიღბის მონიშნულთან გადაკვეთა
+	Load Actions…	მოქმედებების ჩატვირთვა…
+	Load Settings…	პარამეტრების ჩატვირთვა…
+	Load settings from a Camera Raw .xmp file	პარამეტრების ჩატვირთვა Camera Raw-ის .xmp ფაილიდან
+	Loaded Camera Raw settings from {file}	Camera Raw-ის პარამეტრები ჩაიტვირთა {file}-დან
+	Loaded Camera Raw settings from {file} ({n} not supported)	Camera Raw-ის პარამეტრები ჩაიტვირთა {file}-დან (მხარდაუჭერელი: {n})
+	Mask Channel	ნიღბის არხი
+	Message:	შეტყობინება:
+	No Spelling Suggestions	მართლწერის შეთავაზებები არ არის
+	No object found there — drag a rectangle around it	იქ ობიექტი ვერ მოიძებნა — გადაათრიეთ მის გარშემო მართკუთხედი
+	Object Finder	ობიექტების მაძიებელი
+	Paper Height	ქაღალდის სიმაღლე
+	Paper Width	ქაღალდის სიგანე
+	Pick Color From Image	ფერის აღება გამოსახულებიდან
+	R g b	RGB
+	Reset All Locked Settings	ყველა ჩაკეტილი პარამეტრის ჩამოყრა
+	Save Actions…	მოქმედებების შენახვა…
+	Save Settings…	პარამეტრების შენახვა…
+	Save Set…	ნაკრების შენახვა…
+	Save these settings as a Camera Raw .xmp file	ამ პარამეტრების შენახვა Camera Raw-ის .xmp ფაილად
+	Select an action first	ჯერ აირჩიეთ მოქმედება
+	Set horizontal skew	ჰორიზონტალური დახრის დაყენება
+	Set vertical skew	ვერტიკალური დახრის დაყენება
+	Show dialog during playback	დიალოგის ჩვენება შესრულებისას
+	Soft Dark Theme	რბილი ბნელი თემა
+	Soft Light Theme	რბილი ღია თემა
+	Soft dark	რბილი ბნელი
+	Soft light	რბილი ღია
+	Solidity:	სიმკვრივე:
+	Sort By Name	სახელის მიხედვით დალაგება
+	Source Channel	წყაროს არხი
+	Source Files	წყარო ფაილები
+	Source Invert	წყაროს ინვერსია
+	Source1 Channel	წყარო 1-ის არხი
+	Source1 Invert	წყარო 1-ის ინვერსია
+	Source2 Channel	წყარო 2-ის არხი
+	Source2 Invert	წყარო 2-ის ინვერსია
+	Step {step} is waiting for its dialog	ნაბიჯი {step} თავის დიალოგს ელოდება
+	Subtract Mask from Selection	ნიღბის მონიშნულიდან გამოკლება
+	Use:	გამოყენება:
+	Vertical Distortion	ვერტიკალური დეფორმაცია
+	{message} ({note})	{message} ({note})
+	{name} (Photoshop)	{name} (Photoshop)
+	{name} can't keep everything in this document	{name} ვერ შეინარჩუნებს ამ დოკუმენტის ყველაფერს
+@plural	Imported {n} pattern from {file}|Imported {n} patterns from {file}	{file}-დან იმპორტირებულია პატერნი: {n}
+@plural	Loaded {n} action from {file}|Loaded {n} actions from {file}	{file}-დან ჩაიტვირთა მოქმედება: {n}
+@plural	Saved {n} action to {file}|Saved {n} actions to {file}	{file}-ში შეინახა მოქმედება: {n}
+@plural	{n} action|{n} actions	მოქმედება: {n}
+@plural	{n} step has no PhotoCraft equivalent yet|{n} steps have no PhotoCraft equivalent yet	ნაბიჯი, რომელსაც PhotoCraft-ში ჯერ შესატყვისი არ აქვს: {n}
+@plural	{n} step with no Photoshop equivalent left out|{n} steps with no Photoshop equivalent left out	გამოტოვებული ნაბიჯი, რომელსაც Photoshop-ში შესატყვისი არ აქვს: {n}
