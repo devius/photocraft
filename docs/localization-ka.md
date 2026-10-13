@@ -37,7 +37,7 @@ Follow this table when adding or changing Georgian strings.
 
 | English source | Georgian | Note |
 |---|---|---|
-| File / Edit / Select / View / Window | ფაილი / რედაქტირება / მონიშვნა / ჩვენება / ფანჯარა | menu bar |
+| File / Edit / Select / View / Window | ფაილი / რედაქტირება / მონიშვნა / ხედი / ფანჯარა | menu bar |
 | Image | გამოსახულება | the edited picture |
 | Canvas / Canvas Size… | ტილო / ტილოს ზომა… | |
 | Layer / Layers | შრე / შრეები | |
