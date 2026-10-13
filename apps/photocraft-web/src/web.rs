@@ -81,6 +81,7 @@ pub fn start() {
                     let inbox: Inbox = Arc::default();
                     let served: Served = Arc::default();
                     load_font_manifest(served.clone(), cc.egui_ctx.clone());
+                    load_fallback_font(cc.egui_ctx.clone());
                     let (session, warnings) = crate::preset_bridge::session(presets.clone());
                     preset_warnings.extend(warnings);
                     let mut app = PhotocraftApp::new(session, services(inbox.clone()));
@@ -188,6 +189,24 @@ fn load_font_manifest(served: Served, ctx: egui::Context) {
         // the Arabic font before typing); the rest is fetched when text or a font menu needs it.
         served_fonts::request_for_languages(browser_languages().iter().map(String::as_str));
         ctx.request_repaint();
+    });
+}
+
+/// The interface face for Georgian, which the bundled faces lack, when the site serves one beside
+/// the page; without it the interface stays as it was.
+const FALLBACK_FONT: &str = "fonts/NotoSansGeorgian.ttf";
+
+fn load_fallback_font(ctx: egui::Context) {
+    wasm_bindgen_futures::spawn_local(async move {
+        match fetch_bytes(FALLBACK_FONT, None).await {
+            // A host may answer a missing file with its index page.
+            Ok(bytes) if matches!(bytes.get(..4), Some([0, 1, 0, 0] | b"OTTO" | b"true")) => {
+                photocraft_ui_egui::theme::set_runtime_fallback_font(bytes);
+                photocraft_ui_egui::theme::install_fonts(&ctx);
+                ctx.request_repaint();
+            }
+            _ => log::info!("no interface fallback font at {FALLBACK_FONT}"),
+        }
     });
 }
 
