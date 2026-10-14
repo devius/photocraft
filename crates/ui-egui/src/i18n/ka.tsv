@@ -4083,6 +4083,13 @@ shape	Appearance	იერსახე
 	Allow Continue	გაგრძელების დაშვება
 	Attempt to Automatically Align Source Images	წყარო გამოსახულებების ავტომატური სწორების მცდელობა
 	Auto Add/Delete	ავტომატური დამატება/წაშლა
+
+# Native Windows printing qualification
+	Don't also tick Mirror Image in Print Settings…: the two flips cancel out.	ბეჭდვის პარამეტრებში… დამატებით ნუ ჩართავთ „სარკისებურ ასახვას“: ორი ასახვა ერთმანეთს აბათილებს.
+	Print Settings…	ბეჭდვის პარამეტრები…
+	Remember to turn off the printer's own colour management in Print Settings…	არ დაგავიწყდეთ თავად პრინტერის ფერების მართვის გამორთვა ბეჭდვის პარამეტრებში…
+	Sent to {printer}	გაიგზავნა პრინტერზე: {printer}
+	set in Print Settings…	განისაზღვრება ბეჭდვის პარამეტრებში…
 	Based On	საფუძველი
 	Bend	მოხრა
 	Capture Brush Size in Preset	ფუნჯის ზომის პრესეტში შენახვა
