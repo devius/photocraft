@@ -4264,3 +4264,17 @@ layerLabel	Magenta	მეწამული
 	Open color-less EXR as ACEScg	ფერის სივრცის გარეშე EXR-ის გახსნა ACEScg-ად
 	Edit Selected Guides	მონიშნული დამხმარე ხაზების რედაქტირება
 	Clear Selected Guides	მონიშნული დამხმარე ხაზების გასუფთავება
+	Delete this set	ამ ნაკრების წაშლა
+	New Set…	ახალი ნაკრები…
+	PhotoCraft Defaults	PhotoCraft-ის ნაგულისხმევი
+	Save a list of these shortcuts as a web page	ამ მალსახმობების სიის ვებგვერდად შენახვა
+	Save the changes to this set	ამ ნაკრებში ცვლილებების შენახვა
+	Save these shortcuts as a .kys file	ამ მალსახმობების .kys ფაილად შენახვა
+	Save these shortcuts as a new set	ამ მალსახმობების ახალ ნაკრებად შენახვა
+	Set deleted.	ნაკრები წაიშალა.
+	Set saved.	ნაკრები შენახულია.
+	Set:	ნაკრები:
+	Summarize…	შეჯამება…
+	There are too many sets: delete one first.	ნაკრები ძალიან ბევრია: ჯერ ერთი წაშალეთ.
+	set name	ნაკრების სახელი
+	{set} (modified)	{set} (შეცვლილი)
