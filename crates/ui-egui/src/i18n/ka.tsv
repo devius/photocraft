@@ -2988,6 +2988,22 @@ cameraData	Lens	ობიექტივი
 	Snap to Origin	სათავესთან მიბმა
 	Search settings…	პარამეტრების ძიება…
 	No matching settings	შესაბამისი პარამეტრები არ არის
+# Edit › Content-Aware Fill workspace
+	Sampling Brush Tool	ნიმუშის აღების ფუნჯის ხელსაწყო
+	Sampling Area Overlay	ნიმუშის აღების არის გადაფარვა
+	Show Sampling Area	ნიმუშის აღების არის ჩვენება
+	Indicates	აღნიშნავს
+	Sampling Area	ნიმუშის აღების არე
+	Excluded Area	გამორიცხული არე
+	Sampling Area Options	ნიმუშის აღების არის პარამეტრები
+	Rectangular	მართკუთხა
+	Fill Settings	შევსების პარამეტრები
+	Rotation Adaptation	ბრუნვის ადაპტაცია
+	Very High	ძალიან მაღალი
+	Full	სრული
+	Mirror	არეკვლა
+	Output Settings	გამოტანის პარამეტრები
+	Output To	გამოტანის ადგილი
 	Loading fonts…	შრიფტები იტვირთება…
 # Select and Mask view modes (#1754)
 	Onion Skin	ხახვის ფენები
