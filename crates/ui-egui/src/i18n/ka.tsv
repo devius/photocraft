@@ -4329,3 +4329,53 @@ layerLabel	Magenta	მეწამული
 	Use	გამოყენება
 	In Front	წინ
 	Behind	უკან
+	Overprint	ზედდაბეჭდვა
+	Current Brush Load	ფუნჯზე აღებული საღებავი
+	Load Brush	ფუნჯზე საღებავის აღება
+	Clean Brush	ფუნჯის გაწმენდა
+	Load the brush after each stroke	ყოველი შტრიხის შემდეგ ფუნჯზე საღებავის აღება
+	Clean the brush after each stroke	ყოველი შტრიხის შემდეგ ფუნჯის გაწმენდა
+	Animation Options	ანიმაციის პარამეტრები
+	Entire Document	მთელი დოკუმენტი
+	Filter Options	ფილტრის პარამეტრები
+	Layer Bounds	შრის საზღვრები
+	Layers Panel Options	შრეების პანელის პარამეტრები
+	New Artboard…	ახალი სამუშაო დაფა…
+	New Group…	ახალი ჯგუფი…
+	Prevent Auto-Nesting	ავტომატური ჩადგმის აკრძალვა
+	Show Layers	შრეების ჩვენება
+	Thumbnail Contents	ესკიზის შიგთავსი
+	Thumbnail Size	ესკიზის ზომა
+	Use Default Masks on Fill Layers	შევსების შრეებზე ნაგულისხმევი ნიღბების გამოყენება
+	Expand New Effects	ახალი ეფექტების გაშლა
+	Add “copy” to Copied Layers and Groups	დაკოპირებულ შრეებსა და ჯგუფებზე „copy“-ის დამატება
+	Preview on canvas when reordering layers	შრეების გადალაგებისას ტილოზე წინასწარი ნახვა
+	Show layer mask badges	შრის ნიღბის ნიშნების ჩვენება
+	Blending Options ({filter})	შერევის პარამეტრები ({filter})
+	Hide the layer's effects and Smart Filters  ({key}-click: all layers)	შრის ეფექტებისა და ჭკვიანი ფილტრების დამალვა  ({key}+დაწკაპუნება: ყველა შრე)
+	Show the layer's effects and Smart Filters  ({key}-click: all layers)	შრის ეფექტებისა და ჭკვიანი ფილტრების ჩვენება  ({key}+დაწკაპუნება: ყველა შრე)
+	Wait for the current job to finish.	დაელოდეთ მიმდინარე დავალების დასრულებას.
+	The document or Smart Filter changed. Reopen its dialog.	დოკუმენტი ან ჭკვიანი ფილტრი შეიცვალა. ხელახლა გახსენით მისი დიალოგი.
+	Opacity must be between 0% and 100%.	გაუმჭვირვალობა უნდა იყოს 0%-სა და 100%-ს შორის.
+	Dissolve is approximated: it blends without Photoshop's dither.	„გაფანტვა“ მიახლოებითია: შერევა Photoshop-ის დიზერინგის გარეშე ხდება.
+	New Snapshot…	ახალი სნეპშოტი…
+	History Options…	ისტორიის პარამეტრები…
+	Paints from the History panel's source state	ხატავს ისტორიის პანელის წყარო მდგომარეობიდან
+	Sets the source for the history brush	ადგენს ისტორიის ფუნჯის წყაროს
+	Bicubic Automatic	ბიკუბური, ავტომატური
+	Bicubic Smoother	ბიკუბური, უფრო გლუვი
+	Bicubic Sharper	ბიკუბური, უფრო მკვეთრი
+	50% Threshold	50%-იანი ზღვარი
+	Pattern Dither	პატერნული დიზერინგი
+	Diffusion Dither	დიფუზიური დიზერინგი
+	Halftone Screen	ნახევარტონური რასტრი
+	Custom Pattern	მორგებული პატერნი
+	Frequency:	სიხშირე:
+	Lines/Inch	ხაზი/დუიმი
+	Lines/Centimeter	ხაზი/სანტიმეტრი
+	Ellipse	ელიფსი
+	DDS Options	DDS-ის პარამეტრები
+	Generate Mipmaps	მიპმაპების გენერაცია
+	There is no color table to save.	შესანახი ფერთა ცხრილი არ არის.
+@plural	Saved {n} color to {file}|Saved {n} colors to {file}	{file}-ში შეინახა ფერი: {n}
+	GPU adapter	GPU ადაპტერი
