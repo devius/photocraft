@@ -4231,6 +4231,11 @@ layerLabel	Magenta	მეწამული
 	Working-cmyk	სამუშაო CMYK
 	Simulate Paper	ქაღალდის იმიტაცია
 	Warming Filter (85)	გამათბობელი ფილტრი (85)
+	Warming Filter (LBA)	გამათბობელი ფილტრი (LBA)
+	Warming Filter (81)	გამათბობელი ფილტრი (81)
+	Cooling Filter (80)	გამაციებელი ფილტრი (80)
+	Cooling Filter (LBB)	გამაციებელი ფილტრი (LBB)
+	Cooling Filter (82)	გამაციებელი ფილტრი (82)
 	Cw	საათის ისრის მიმართულებით
 	Ccw	საათის ისრის საწინააღმდეგოდ
 	Nearest	უახლოესი მეზობელი
