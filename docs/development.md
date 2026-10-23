@@ -40,7 +40,7 @@ cargo run --release -p photocraft -- --control 7878 --control-token-file .privat
   --automation-read-root work --automation-write-root work
 cargo test --workspace                                     # everything
 cargo xtask test                                           # tests (nextest when installed) + doctests
-cargo xtask ci                                             # fmt + clippy + tests + doctests + layers + wasm
+cargo xtask ci                                             # the CI gate: fmt, clippy, layers, scorecard, tests, panic_hunt, doctests, wasm, i18n report
 cargo xtask stats                                          # tests and lines per crate
 cargo xtask parity                                         # Photoshop menu coverage -> docs/parity-checklist.md
 ```
@@ -260,6 +260,16 @@ Tools:
 - `command_list`, `command_run`, `command_batch` (several commands per call)
 - `jobs_list` (running background jobs with progress, then recently finished ones with their result or error), `jobs_cancel` (one job by id, or every running job)
 - bridge only: `ui_inspect`, `ui_screenshot`, `ui_pointer`, `ui_menu_invoke`, `ui_set`, `control_call`
+
+`doc_export_layers` in workspace headless mode returns `{files, count, skipped}`. `count` is
+only the number of files written. Each skipped top-level layer is reported as
+`{layer, name, reason}` (session id, original name, explanation); `skipped` is `[]` when every
+layer exports. Hidden layers are reported when `visible_only` is true (the default; `visibleOnly` in the engine/serve params), and
+standalone adjustments are reported because they have no pixels of their own. Groups still
+export merged, so their children are not separate skips. Filename numbering is unchanged;
+encoding or write failures remain errors. The engine command and trusted-local exports add
+the same `skipped` array to their existing `{files}` response. See the
+[`doc.exportLayers` protocol entry](control-protocol.md#headless-server) for details.
 
 Claude Code (`.mcp.json` in the repo root, or `claude mcp add`):
 
