@@ -4448,3 +4448,72 @@ layerLabel	Magenta	მეწამული
 	Right-to-left paragraph direction	აბზაცის მიმართულება მარჯვნიდან მარცხნივ
 	Not rendered: this adjustment ({key}) is kept as imported.	არ არის დარენდერებული: ეს კორექცია ({key}) შენარჩუნებულია იმპორტირებული სახით.
 	Print preview image	ამობეჭდვამდე ნახვის გამოსახულება
+
+# Strings added upstream (sync 2026-10-27)
+	105%	105%
+	110%	110%
+	115%	115%
+	120%	120%
+	From:	საიდან:
+	Full Document	მთელი დოკუმენტი
+	Merged Layers	შერწყმული შრეები
+	Damaged Photoshop document	დაზიანებული Photoshop-ის დოკუმენტი
+	The document “{name}” may be damaged.	დოკუმენტი „{name}“ შეიძლება დაზიანებული იყოს.
+	Some layers, pixels or masks could not be read. Do you want to continue opening it?	ზოგიერთი შრის, პიქსელის ან ნიღბის წაკითხვა ვერ მოხერხდა. გსურთ გახსნის გაგრძელება?
+	If you continue, saving over the original may permanently discard unreadable data. Save a copy to keep the original.	თუ გააგრძელებთ და ორიგინალს გადააწერთ, წაუკითხავი მონაცემები შეიძლება სამუდამოდ დაიკარგოს. ორიგინალის შესანარჩუნებლად შეინახეთ ასლი.
+	Alt-click a plane to set the clone source	სიბრტყეზე Alt-დაწკაპუნებით მიუთითეთ კლონირების წყარო
+	Too many clone strokes: apply Vanishing Point first	კლონირების შტრიხები ზედმეტად ბევრია: ჯერ გამოიყენეთ გაქრობის წერტილი
+	Calibration	კალიბრაცია
+	Red Primary	წითელი ძირითადი
+	Green Primary	მწვანე ძირითადი
+	Blue Primary	ლურჯი ძირითადი
+	Write xmp sidecars	XMP თანმხლები ფაილების ჩაწერა
+	Set the tone sliders from the image	ტონის სლაიდერების დაყენება გამოსახულების მიხედვით
+	Settings from {name}	პარამეტრები {name}-დან
+	Settings from {name}; {count} not supported: {names}	პარამეტრები {name}-დან; მხარდაუჭერელი ({count}): {names}
+	Could not write {name}: {error}	{name}-ის ჩაწერა ვერ მოხერხდა: {error}
+	Kept {name}: written by another application	{name} შენარჩუნებულია: ჩაწერილია სხვა აპლიკაციის მიერ
+	Shadow Tint	ჩრდილების ტონირება
+	Check for Updates…	განახლებების შემოწმება…
+	PhotoCraft Updates	PhotoCraft-ის განახლებები
+	Checking for updates…	განახლებების შემოწმება…
+	Open the release page to choose an installer for your system.	გახსენით გამოშვების გვერდი და აირჩიეთ თქვენი სისტემის ინსტალატორი.
+	Open Download Page	ჩამოტვირთვის გვერდის გახსნა
+	PhotoCraft is up to date.	PhotoCraft განახლებულია.
+	Could not check for updates.	განახლებების შემოწმება ვერ მოხერხდა.
+	Updates have not been checked yet.	განახლებები ჯერ არ შემოწმებულა.
+	Check Again	ხელახლა შემოწმება
+	Automatically Check for Updates	განახლებების ავტომატური შემოწმება
+	Installed version: {version}	დაინსტალირებული ვერსია: {version}
+	PhotoCraft {version} is available.	ხელმისაწვდომია PhotoCraft {version}.
+	Import Styles…	სტილების იმპორტი…
+	Export Selected Styles…	მონიშნული სტილების ექსპორტი…
+	Export Styles…	სტილების ექსპორტი…
+	{file} is not a style library (.asl)	{file} სტილების ბიბლიოთეკა არ არის (.asl)
+@plural	Imported {n} style from {file}|Imported {n} styles from {file}	{file}-დან იმპორტირებულია სტილი: {n}
+@plural	Exported {n} style to {file}|Exported {n} styles to {file}	სტილი: {n} ექსპორტირებულია {file}-ში
+	Hue Cube	ფერის ტონის კუბი
+	Brightness Cube	სიკაშკაშის კუბი
+	Color Wheel	ფერთა წრე
+	RGB Sliders	RGB სლაიდერები
+	HSB Sliders	HSB სლაიდერები
+	CMYK Sliders	CMYK სლაიდერები
+	Lab Sliders	Lab სლაიდერები
+	Web Color Sliders	ვებფერის სლაიდერები
+	Copy Color as HTML	ფერის კოპირება HTML კოდად
+	Copy Color's Hex Code	ფერის Hex კოდის კოპირება
+	RGB Spectrum	RGB სპექტრი
+	CMYK Spectrum	CMYK სპექტრი
+	Grayscale Ramp	ნაცრისფერი ტონების შკალა
+	Current Colors	მიმდინარე ფერები
+	Make Ramp Web Safe	ვებისთვის უსაფრთხო შკალა
+	Art History Brush Tool	მხატვრული ისტორიის ფუნჯის ხელსაწყო
+	Tight Short	მჭიდრო მოკლე
+	Tight Medium	მჭიდრო საშუალო
+	Tight Long	მჭიდრო გრძელი
+	Loose Medium	თავისუფალი საშუალო
+	Loose Long	თავისუფალი გრძელი
+	Dab	ლაქა
+	Tight Curl	მჭიდრო ხვია
+	Loose Curl	თავისუფალი ხვია
+	Stylized dabs from a history state	სტილიზებული ლაქები ისტორიის მდგომარეობიდან
