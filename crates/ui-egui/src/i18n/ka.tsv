@@ -4551,3 +4551,20 @@ layerLabel	Magenta	მეწამული
 	Font size presets	შრიფტის ზომის პრესეტები
 	Leading presets	სტრიქონთა დაშორების პრესეტები
 	Tracking presets	ტრეკინგის პრესეტები
+# Select and Mask workspace
+	Color Aware	ფერის გათვალისწინებით
+	Decontaminate Colors	ფერების გაწმენდა
+	Edge Detection	კიდის აღმოჩენა
+	Global Refinements	გლობალური დაზუსტებები
+	High Quality Preview	მაღალი ხარისხის წინასწარი ნახვა
+	Object Aware	ობიექტის გათვალისწინებით
+	Real-Time Refinement	დაზუსტება რეალურ დროში
+	Refine Edge Brush Tool	კიდის დაზუსტების ფუნჯის ხელსაწყო
+	Refine Hair	თმის დაზუსტება
+	Refine Mode	დაზუსტების რეჟიმი
+	Remember Settings	პარამეტრების დამახსოვრება
+	View Mode	ხედის რეჟიმი
+	Object Aware needs a segmentation model, which isn't available yet	„ობიექტის გათვალისწინებით“ რეჟიმს სჭირდება სეგმენტაციის მოდელი, რომელიც ჯერ მიუწვდომელია
+	Refine Hair needs hair detection, which isn't available yet	„თმის დაზუსტებას“ სჭირდება თმის აღმოჩენა, რომელიც ჯერ მიუწვდომელია
+	Select and Mask was closed: its document is no longer the active one	„მონიშვნა და ნიღაბი“ დაიხურა: მისი დოკუმენტი აღარ არის აქტიური
+	Select and Mask was closed: another layer was selected	„მონიშვნა და ნიღაბი“ დაიხურა: მონიშნულია სხვა შრე
