@@ -31,6 +31,10 @@
     <string>hu</string>
     <string>tr</string>
     <string>vi</string>
+    <string>sv</string>
+    <string>fi</string>
+    <string>da</string>
+    <string>nb</string>
     <string>ka</string>
   </array>
   <key>CFBundleDisplayName</key>
