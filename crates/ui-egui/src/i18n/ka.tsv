@@ -4478,17 +4478,8 @@ layerLabel	Magenta	მეწამული
 	Kept {name}: written by another application	{name} შენარჩუნებულია: ჩაწერილია სხვა აპლიკაციის მიერ
 	Shadow Tint	ჩრდილების ტონირება
 	Check for Updates…	განახლებების შემოწმება…
-	PhotoCraft Updates	PhotoCraft-ის განახლებები
-	Checking for updates…	განახლებების შემოწმება…
 	Open the release page to choose an installer for your system.	გახსენით გამოშვების გვერდი და აირჩიეთ თქვენი სისტემის ინსტალატორი.
-	Open Download Page	ჩამოტვირთვის გვერდის გახსნა
-	PhotoCraft is up to date.	PhotoCraft განახლებულია.
-	Could not check for updates.	განახლებების შემოწმება ვერ მოხერხდა.
-	Updates have not been checked yet.	განახლებები ჯერ არ შემოწმებულა.
-	Check Again	ხელახლა შემოწმება
 	Automatically Check for Updates	განახლებების ავტომატური შემოწმება
-	Installed version: {version}	დაინსტალირებული ვერსია: {version}
-	PhotoCraft {version} is available.	ხელმისაწვდომია PhotoCraft {version}.
 	Import Styles…	სტილების იმპორტი…
 	Export Selected Styles…	მონიშნული სტილების ექსპორტი…
 	Export Styles…	სტილების ექსპორტი…
@@ -4585,12 +4576,10 @@ layerLabel	Magenta	მეწამული
 	Drawn on the CPU: {reason}. Click for System Info.	დახატულია CPU-ზე: {reason}. დაწკაპეთ სისტემის ინფორმაციის სანახავად.
 	Level:	დონე:
 	Percentile:	პროცენტილი:
-	Release Notes	გამოშვების შენიშვნები
 	Show Channels in Color	არხების ფერად ჩვენება
 	Show Statistics	სტატისტიკის ჩვენება
 	Source:	წყარო:
 	Uncached Refresh	განახლება ქეშის გარეშე
-	Update and Restart	განახლება და გადატვირთვა
 	Convert to Shape…	ფიგურად გარდაქმნა…
 	Delete Hidden Layers	დამალული შრეების წაშლა
 	Fit Layer on Screen	შრის ეკრანში ჩატევა
@@ -4638,3 +4627,22 @@ cameraRaw	Tone Histogram	ტონების ჰისტოგრამა
 cameraRaw	Vignetting	ვინიეტირება
 cameraRaw	White Balance: As Shot	თეთრის ბალანსი: როგორც გადაღებულია
 	No matching fonts	შესაბამისი შრიფტები არ არის
+
+# Sync 2026-11-03: Load Actions summary, SVG Smart Objects, zoom field, Shape Fill/Stroke popover
+@plural	{n} action file loaded|{n} action files loaded	ჩატვირთულია მოქმედებების ფაილი: {n}
+	{set} from {file} replaced the one from {earlier}	{file}-დან {set}-მა ჩაანაცვლა {earlier}-დან ჩატვირთული
+@plural	{n} file could not be loaded: {errors}|{n} files could not be loaded: {errors}	ვერ ჩაიტვირთა ფაილი: {n} — {errors}
+smartSvg	Choose executable…	შესრულებადი ფაილის არჩევა…
+smartSvg	Choose the application used to edit this SVG:	აირჩიეთ აპლიკაცია, რომლითაც ეს SVG დარედაქტირდება:
+smartSvg	Edit SVG Smart Object	SVG ჭკვიანი ობიექტის რედაქტირება
+smartSvg	Other application	სხვა აპლიკაცია
+smartSvg	PhotoCraft (internal editor)	PhotoCraft (ჩაშენებული რედაქტორი)
+smartSvg	SVG editor opened. Save the SVG to update this Smart Object.	SVG-რედაქტორი გაიხსნა. ამ ჭკვიანი ობიექტის განსაახლებლად შეინახეთ SVG.
+smartSvg	Save to the opened SVG file. Each saved change becomes one undo step in PhotoCraft.	შეინახეთ გახსნილ SVG ფაილში. ყოველი შენახული ცვლილება PhotoCraft-ში ერთ დაბრუნების ნაბიჯად იქცევა.
+smartSvg	Stop syncing this Smart Object	ამ ჭკვიანი ობიექტის სინქრონიზაციის შეწყვეტა
+smartSvg	Updates wait while another document or an editing dialog is active.	განახლება დაელოდება, სანამ სხვა დოკუმენტი ან რედაქტირების დიალოგი აქტიურია.
+smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded source; format-specific features may change.	AI/PDF/EPS შიგთავსი SVG-ის სახით დარედაქტირდება. შენახვა ჩაანაცვლებს ჩაშენებულ წყაროს; ფორმატისთვის დამახასიათებელი შესაძლებლობები შეიძლება შეიცვალოს.
+	Invalid numeric entry. An integer between {min}% and {max}% is required. Previous value was inserted.	არასწორი რიცხვითი მნიშვნელობა. საჭიროა მთელი რიცხვი {min}%-დან {max}%-მდე. ჩასმულია წინა მნიშვნელობა.
+	Recently Used Colors	ბოლოს გამოყენებული ფერები
+	Stop Color	გადასვლის წერტილის ფერი
+	Shapes can't use patterns yet	ფიგურებს პატერნების გამოყენება ჯერ არ შეუძლიათ
