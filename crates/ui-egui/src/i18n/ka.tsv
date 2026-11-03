@@ -4646,3 +4646,6 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Recently Used Colors	ბოლოს გამოყენებული ფერები
 	Stop Color	გადასვლის წერტილის ფერი
 	Shapes can't use patterns yet	ფიგურებს პატერნების გამოყენება ჯერ არ შეუძლიათ
+	Memory usage percent	მეხსიერების გამოყენება (%)
+	Save Full-Size Composite in .pcraft Files	სრული ზომის გაერთიანებული გამოსახულების შენახვა .pcraft ფაილებში
+	Scratch Size Limit (MB, 0 = No Limit)	დროებითი დისკის ზომის ლიმიტი (მბ, 0 = ლიმიტის გარეშე)
