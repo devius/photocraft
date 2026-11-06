@@ -4649,3 +4649,70 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Memory usage percent	მეხსიერების გამოყენება (%)
 	Save Full-Size Composite in .pcraft Files	სრული ზომის გაერთიანებული გამოსახულების შენახვა .pcraft ფაილებში
 	Scratch Size Limit (MB, 0 = No Limit)	დროებითი დისკის ზომის ლიმიტი (მბ, 0 = ლიმიტის გარეშე)
+# Sync 2026-11-07: strings added upstream
+	Clear Recent File List	ბოლოს გახსნილი ფაილების სიის გასუფთავება
+	New Document…	ახალი დოკუმენტი…
+	Open Document…	დოკუმენტის გახსნა…
+	Consolidate All to Here	ყველას აქ გაერთიანება
+	Move to New Window	ახალ ფანჯარაში გადატანა
+	Reveal in Explorer	Explorer-ში ჩვენება
+	Plugins…	პლაგინები…
+	Embed Linked	დაკავშირებულის ჩაშენება
+	Embed All Linked	ყველა დაკავშირებულის ჩაშენება
+	Plugins	პლაგინები
+	Working CMY Plates	სამუშაო CMY ფირფიტები
+	Legacy Macintosh RGB (Gamma 1.8)	მოძველებული Macintosh RGB (გამა 1.8)
+	Internet Standard RGB (sRGB)	ინტერნეტის სტანდარტული RGB (sRGB)
+	Contextual Task Bar	კონტექსტური ამოცანების ზოლი
+	Hide bar	ზოლის დამალვა
+	Reset bar position	ზოლის პოზიციის ჩამოყრა
+	Pin bar position	ზოლის პოზიციის ჩამაგრება
+	Move bar	ზოლის გადაადგილება
+	More options	მეტი პარამეტრი
+	Source: {name}	წყარო: {name}
+	No Thumbnails	ესკიზების გარეშე
+	Small Thumbnails	პატარა ესკიზები
+	Medium Thumbnails	საშუალო ესკიზები
+	Large Thumbnails	დიდი ესკიზები
+	Clip Thumbnails to Document Bounds	ესკიზების დოკუმენტის საზღვრებით მოჭრა
+	Make Shape	ფიგურის შექმნა
+	Background (default)	ფონი (ნაგულისხმევი)
+	Transparent (default)	გამჭვირვალე (ნაგულისხმევი)
+	The History Brush source was deleted: set a new source in the History panel	ისტორიის ფუნჯის წყარო წაიშალა: მიუთითეთ ახალი წყარო ისტორიის პანელში
+	The GPU compositor is still being prepared	GPU-კომპოზიტორი ჯერ კიდევ მზადდება
+	Message	შეტყობინება
+	Playback Options…	შესრულების პარამეტრები…
+	Playback Options	შესრულების პარამეტრები
+	Accelerated	დაჩქარებული
+	Step by Step	ნაბიჯ-ნაბიჯ
+	Pause For:	პაუზა:
+	Pause For	პაუზა
+	seconds	წამი
+	Create a single history state	ისტორიის ერთი მდგომარეობის შექმნა
+	Generator enabled	გენერატორი ჩართულია
+	On your computer	თქვენს კომპიუტერზე
+	New file	ახალი ფაილი
+	Learn	სწავლა
+	Website	ვებსაიტი
+	A frame supports affine transforms; select its image for perspective transforms	ჩარჩო აფინურ გარდაქმნებს უჭერს მხარს; პერსპექტიული გარდაქმნისთვის მონიშნეთ მისი გამოსახულება
+	A frame supports affine transforms; select its image to warp it	ჩარჩო აფინურ გარდაქმნებს უჭერს მხარს; დეფორმაციისთვის მონიშნეთ მისი გამოსახულება
+	Convert to Frame…	ჩარჩოდ გარდაქმნა…
+	Create a new custom frame	ახალი მორგებული ჩარჩოს შექმნა
+	Create a new polygonal frame	ახალი მრავალკუთხა ჩარჩოს შექმნა
+	Create a new triangular frame	ახალი სამკუთხა ჩარჩოს შექმნა
+	Fit Content to Frame	შიგთავსის ჩარჩოზე მორგება
+	Fit Frame to Content	ჩარჩოს შიგთავსზე მორგება
+	Frame coordinates must be finite and within 600000 pixels	ჩარჩოს კოორდინატები სასრული უნდა იყოს და 600000 პიქსელს არ უნდა აღემატებოდეს
+	Import Image…	გამოსახულების იმპორტი…
+	Invalid frame transform	ჩარჩოს არასწორი გარდაქმნა
+	Invalid nested file drop	ფაილის ჩადგმული ჩაგდება არასწორია
+	New Frame	ახალი ჩარჩო
+	Replace Image…	გამოსახულების ჩანაცვლება…
+	The frame is locked	ჩარჩო ჩაკეტილია
+	The frame is unavailable	ჩარჩო მიუწვდომელია
+	Channel Options…	არხის პარამეტრები…
+	Specify Channels:	არხების მითითება:
+	Not enough grayscale documents for this mode.	ამ რეჟიმისთვის ნაცრისფერი ტონების დოკუმენტები საკმარისი არ არის.
+	Pick a different document for each channel.	თითოეული არხისთვის სხვა დოკუმენტი აირჩიეთ.
+	A picked document is no longer open.	ერთ-ერთი არჩეული დოკუმენტი აღარ არის გახსნილი.
+	A picked document is no longer a grayscale document of the same size.	ერთ-ერთი არჩეული დოკუმენტი აღარ არის იმავე ზომის ნაცრისფერი ტონების დოკუმენტი.
