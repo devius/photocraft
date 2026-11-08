@@ -26,7 +26,7 @@ mod system;
 
 #[cfg(test)]
 pub(crate) use system::with_decimal_separator;
-pub use system::{decimal_separator, set_system_locales, system_lang};
+pub use system::{decimal_separator, system_lang};
 
 use std::cell::Cell;
 use std::sync::OnceLock;
@@ -273,8 +273,6 @@ pub static LANGUAGES: [LangInfo; 35] = [
     // Norwegian Bokmål; `nb-NO`, and the macrolanguage `no` and Nynorsk `nn` from POSIX locales,
     // resolve here (see `candidates`).
     LangInfo { code: "nb", name: "Norsk bokmål", source: catalog!("nb"), plural: plural_one_other, complete_menus: true, catalog: OnceLock::new() },
-    // Georgian: nouns stay singular after a numeral (`შრე: 5`, `5 შრე`), so one form serves every count.
-    LangInfo { code: "ka", name: "ქართული", source: catalog!("ka"), plural: plural_none, complete_menus: true, catalog: OnceLock::new() },
     // Hebrew; `he-il` and `he_IL` resolve here. The chrome mirrors right to left (`dir_for_code`),
     // like Arabic. Modern Hebrew software UI collapses CLDR's one/two/many/other
     // into a plain one|other, so this uses `plural_one_other`.
