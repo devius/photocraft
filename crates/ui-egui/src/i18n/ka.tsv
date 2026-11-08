@@ -889,7 +889,7 @@
 	Click to add a point · drag off or {key}-click or Delete to remove	დაწკაპეთ წერტილის დასამატებლად · მოსაშორებლად გადაათრიეთ გარეთ, {key}-დაწკაპეთ ან დააჭირეთ Delete-ს
 	Click to apply, {key}-click to clear overrides, double-click for Style Options	დაწკაპეთ გამოსაყენებლად, {key}-დაწკაპუნება ხსნის გადაფარვებს, ორმაგი დაწკაპუნება — სტილის პარამეტრები
 	Click to edit the gradient	დაწკაპეთ გრადიენტის რედაქტირებისთვის
-	Click to restore the current colour	დაწკაპეთ მიმდინარე ფერის აღსადგენად
+	Click to restore the current color	დაწკაპეთ მიმდინარე ფერის აღსადგენად
 	Click to zoom in  ·  {key}-click to zoom out  ·  drag right/left to zoom in/out	დაწკაპეთ გასადიდებლად  ·  {key}-დაწკაპუნება — დასაპატარავებლად  ·  მარჯვნივ/მარცხნივ გადათრევა — გადიდება/დაპატარავება
 	Click with the Note tool to add a note.	შენიშვნის დასამატებლად დაწკაპეთ შენიშვნის ხელსაწყოთი.
 	Click: corner · Drag: smooth · Click first point: close · {key} finish · Esc cancel	დაწკაპუნება: კუთხე · გადათრევა: გლუვი · პირველ წერტილზე დაწკაპუნება: დახურვა · {key} დასრულება · Esc გაუქმება
@@ -1246,7 +1246,7 @@
 	Opacity Jitter	გაუმჭვირვალობის ცვალებადობა
 	Opacity:	გაუმჭვირვალობა:
 	Open a document to define variables.	ცვლადების განსასაზღვრად გახსენით დოკუმენტი.
-	Open a document to select a colour range.	ფერების დიაპაზონის მოსანიშნად გახსენით დოკუმენტი.
+	Open a document to select a color range.	ფერების დიაპაზონის მოსანიშნად გახსენით დოკუმენტი.
 	Open a document to use the timeline.	დროის ხაზის გამოსაყენებლად გახსენით დოკუმენტი.
 	Optical	ოპტიკური
 	Optimized	ოპტიმიზებული
@@ -1561,7 +1561,7 @@
 	Choke	შევიწროება
 	Classic	კლასიკური
 	Click to add text	დაწკაპეთ ტექსტის დასამატებლად
-	Click to fill similar colours	დაწკაპეთ მსგავსი ფერების შესავსებად
+	Click to fill similar colors	დაწკაპეთ მსგავსი ფერების შესავსებად
 	Clone Stamp Tool	კლონირების შტამპის ხელსაწყო
 	Color Burn	ფერით ჩამუქება
 	Color Dodge	ფერით გაღიავება
@@ -1721,7 +1721,7 @@
 	Rectangular Marquee Tool	მართკუთხა მონიშვნის ხელსაწყო
 	Reds	წითლები
 	Reflected	არეკლილი
-	Sample: foreground colour	ნიმუში: წინა პლანის ფერი
+	Sample: foreground color	ნიმუში: წინა პლანის ფერი
 	Sampled Colors	ნიმუშად აღებული ფერები
 	Satin	ატლასი
 	Save Pixel Aspect Ratio	პიქსელის გვერდების თანაფარდობის შენახვა
@@ -2018,7 +2018,7 @@
 	Graphics	გრაფიკა
 	Reset GPU Backend	GPU-ის ბექენდის ჩამოყრა
 	Applies at next launch.	ძალაში შედის შემდეგი გაშვებისას.
-	Click to sample the foreground colour  ·  {key}-click for background	დაწკაპეთ წინა პლანის ფერის ნიმუშის ასაღებად  ·  {key}+დაწკაპუნება — ფონისთვის
+	Click to sample the foreground color  ·  {key}-click for background	დაწკაპეთ წინა პლანის ფერის ნიმუშის ასაღებად  ·  {key}+დაწკაპუნება — ფონისთვის
 	{key}-click to set the source	{key}+დაწკაპუნება წყაროს დასაყენებლად
 	{key} to subtract	{key} — გამოსაკლებად
 	Clone source {n} ({key}-click with Clone Stamp to set)	კლონირების წყარო {n} (დასაყენებლად {key}+დაწკაპუნება კლონირების შტამპით)
@@ -2066,7 +2066,7 @@
 	Gradient Options	გრადიენტის პარამეტრები
 	Align with layer	შრესთან სწორება
 	Reset Alignment	სწორების ჩამოყრა
-	Centre the gradient (offset 0, 0)	გრადიენტის ცენტრირება (წანაცვლება 0, 0)
+	Center the gradient (offset 0, 0)	გრადიენტის ცენტრირება (წანაცვლება 0, 0)
 # Gradient Editor window, opened from the options bar's gradient swatch.
 	Gradient Editor	გრადიენტის რედაქტორი
 	Gradient picker	გრადიენტის ამრჩევი
@@ -2101,16 +2101,16 @@
 	Alt-click to define a source point to clone from	Alt+დაწკაპუნებით მიუთითეთ კლონირების საწყისი წერტილი
 	No path to make a selection from: draw one with the Pen tool or select one in the Paths panel.	მონიშნულის შესაქმნელად ტრაექტორია არ არის: დახაზეთ კალმით ან მონიშნეთ ტრაექტორიების პანელში.
 	Cancel opening	გახსნის გაუქმება
-	Cancelled opening {name}	{name}-ის გახსნა გაუქმდა
+	Canceled opening {name}	{name}-ის გახსნა გაუქმდა
 	Developing {name}	მუშავდება {name}
-	Cancelled {label}	გაუქმდა: {label}
+	Canceled {label}	გაუქმდა: {label}
 	Esc to cancel	Esc — გასაუქმებლად
 	Opened {name}	გაიხსნა {name}
 	Opening {name}	იხსნება {name}
 	Saved {name}	შენახულია {name}
 	Saving {name}	ინახება {name}
 	A save to {name} is still running; try again when it finishes	{name}-ში შენახვა ჯერ კიდევ მიმდინარეობს; სცადეთ მისი დასრულების შემდეგ
-	{label} is writing the file and can no longer be cancelled	{label} ფაილს წერს და მისი გაუქმება აღარ შეიძლება
+	{label} is writing the file and can no longer be canceled	{label} ფაილს წერს და მისი გაუქმება აღარ შეიძლება
 	Opening {name}…	იხსნება {name}…
 	Opening…	იხსნება…
 	Reading…	იკითხება…
@@ -2473,7 +2473,7 @@
 	Pixel	პიქსელი
 	Adjustment	კორექცია
 	Drag (lasso) or click points (polygonal) · {add} add · {sub} subtract	გადაათრიეთ (ლასო) ან დაწკაპეთ წერტილებზე (მრავალკუთხა) · {add} დამატება · {sub} გამოკლება
-	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} centre) · Space moves while drawing · arrows nudge · X swaps orientation · {commit} commits · Esc cancels	გადაათრიეთ ჩამოჭრის ჩარჩო · შიგნით გადათრევით გადაადგილება · კიდეებით ზომის შეცვლა ({ratio} თანაფარდობა, {centre} ცენტრიდან) · Space — გადაადგილება ხაზვისას · ისრები — მცირე წანაცვლება · X — ორიენტაციის შეცვლა · {commit} — დადასტურება · Esc — გაუქმება
+	Drag a crop box · drag inside to move · edges resize ({ratio} ratio, {centre} center) · Space moves while drawing · arrows nudge · X swaps orientation · {commit} commits · Esc cancels	გადაათრიეთ ჩამოჭრის ჩარჩო · შიგნით გადათრევით გადაადგილება · კიდეებით ზომის შეცვლა ({ratio} თანაფარდობა, {centre} ცენტრიდან) · Space — გადაადგილება ხაზვისას · ისრები — მცირე წანაცვლება · X — ორიენტაციის შეცვლა · {commit} — დადასტურება · Esc — გაუქმება
 	{mode} Color · {bits} bit	{mode} ფერი · {bits} ბიტი
 	Drag to move the layer	გადაათრიეთ შრის გადასაადგილებლად
 	Scrubby Zoom	მასშტაბირება გადათრევით
@@ -2672,7 +2672,7 @@ cameraRaw	Whites	თეთრები
 	Discard Layers and Save a Copy	შრეების უგულებელყოფა და ასლის შენახვა
 	Don't show again	აღარ აჩვენო
 	Save failed: {error}	შენახვა ვერ მოხერხდა: {error}
-	Save cancelled	შენახვა გაუქმდა
+	Save canceled	შენახვა გაუქმდა
 
 # Layer Style dialog: style presets and per-effect defaults
 	Style {name} saved	სტილი {name} შენახულია
@@ -2818,7 +2818,7 @@ fontWeight	Italic	დახრილი
 	Impressionist	იმპრესიონისტული
 	Rotate View Tool	ხედის შემობრუნების ხელსაწყო
 	Reset View	ხედის ჩამოყრა
-	Drag around the centre to rotate the view  ·  Shift constrains to 15°	გადაათრიეთ ცენტრის გარშემო ხედის შესაბრუნებლად  ·  Shift — 15°-იანი ბიჯით
+	Drag around the center to rotate the view  ·  Shift constrains to 15°	გადაათრიეთ ცენტრის გარშემო ხედის შესაბრუნებლად  ·  Shift — 15°-იანი ბიჯით
 
 # Painting symmetry presets.
 	Dual Axis	ორი ღერძი
@@ -2839,8 +2839,8 @@ fontWeight	Italic	დახრილი
 	Show Sampling Ring	ნიმუშის აღების რგოლის ჩვენება
 
 # Color Picker warnings
-	Out of gamut for printing: click for the nearest printable colour	ბეჭდვისთვის ფერთა დიაპაზონს გარეთაა: დაწკაპეთ უახლოესი დასაბეჭდი ფერისთვის
-	Not a web colour: click for the nearest web colour	ვებფერი არ არის: დაწკაპეთ უახლოესი ვებფერისთვის
+	Out of gamut for printing: click for the nearest printable color	ბეჭდვისთვის ფერთა დიაპაზონს გარეთაა: დაწკაპეთ უახლოესი დასაბეჭდი ფერისთვის
+	Not a web color: click for the nearest web color	ვებფერი არ არის: დაწკაპეთ უახლოესი ვებფერისთვის
 	Color to Alpha…	ფერიდან ალფაში…
 	Transparency Threshold	გამჭვირვალობის ზღვარი
 	Opacity Threshold	გაუმჭვირვალობის ზღვარი
@@ -4101,7 +4101,7 @@ shape	Appearance	იერსახე
 # Native Windows printing qualification
 	Don't also tick Mirror Image in Print Settings…: the two flips cancel out.	ბეჭდვის პარამეტრებში… დამატებით ნუ ჩართავთ „სარკისებურ ასახვას“: ორი ასახვა ერთმანეთს აბათილებს.
 	Print Settings…	ბეჭდვის პარამეტრები…
-	Remember to turn off the printer's own colour management in Print Settings…	არ დაგავიწყდეთ თავად პრინტერის ფერების მართვის გამორთვა ბეჭდვის პარამეტრებში…
+	Remember to turn off the printer's own color management in Print Settings…	არ დაგავიწყდეთ თავად პრინტერის ფერების მართვის გამორთვა ბეჭდვის პარამეტრებში…
 	Sent to {printer}	გაიგზავნა პრინტერზე: {printer}
 	set in Print Settings…	განისაზღვრება ბეჭდვის პარამეტრებში…
 	Based On	საფუძველი
@@ -4424,12 +4424,12 @@ layerLabel	Magenta	მეწამული
 	Graphics memory: {size}	გრაფიკული მეხსიერება: {size}
 	{path}: the path is not valid Unicode; save under another name.	{path}: გზა არ არის სწორი Unicode; შეინახეთ სხვა სახელით.
 	Demosaic	დემოზაიკა
-	How the camera's colour filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	როგორ ივსება კამერის ფერადი ფილტრის მოზაიკა. გამოიყენება ფაილის გახსნისას; წინასწარი ნახვა აჩვენებს მეთოდს, რომლითაც ფაილი გაიხსნა.
+	How the camera's color filter mosaic is filled in. It is applied when the file opens; the preview shows the method it was opened with.	როგორ ივსება კამერის ფერადი ფილტრის მოზაიკა. გამოიყენება ფაილის გახსნისას; წინასწარი ნახვა აჩვენებს მეთოდს, რომლითაც ფაილი გაიხსნა.
 	AHD (adaptive homogeneity)	AHD (ადაპტური ერთგვაროვნება)
 	Malvar–He–Cutler	Malvar–He–Cutler
-	Hirakawa–Parks: the cleanest edges and the least colour fringing, the slowest.	Hirakawa–Parks: ყველაზე სუფთა კიდეები და ყველაზე ნაკლები ფერადი შარავანდი, ყველაზე ნელი.
-	Gradient-corrected interpolation: sharp and fast, with some colour fringing on fine detail.	გრადიენტით კორექტირებული ინტერპოლაცია: მკვეთრი და სწრაფი, წვრილ დეტალებზე მცირე ფერადი შარავანდით.
-	The fastest and the softest, with colour fringing on fine detail.	ყველაზე სწრაფი და ყველაზე რბილი, წვრილ დეტალებზე ფერადი შარავანდით.
+	Hirakawa–Parks: the cleanest edges and the least color fringing, the slowest.	Hirakawa–Parks: ყველაზე სუფთა კიდეები და ყველაზე ნაკლები ფერადი შარავანდი, ყველაზე ნელი.
+	Gradient-corrected interpolation: sharp and fast, with some color fringing on fine detail.	გრადიენტით კორექტირებული ინტერპოლაცია: მკვეთრი და სწრაფი, წვრილ დეტალებზე მცირე ფერადი შარავანდით.
+	The fastest and the softest, with color fringing on fine detail.	ყველაზე სწრაფი და ყველაზე რბილი, წვრილ დეტალებზე ფერადი შარავანდით.
 	“{name}” already exists. Replace it?	„{name}“ უკვე არსებობს. ჩავანაცვლოთ?
 	The name in the save dialog was “{name}”.	შენახვის დიალოგში სახელი იყო „{name}“.
 	Move Up	აწევა
@@ -4717,3 +4717,31 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Pick a different document for each channel.	თითოეული არხისთვის სხვა დოკუმენტი აირჩიეთ.
 	A picked document is no longer open.	ერთ-ერთი არჩეული დოკუმენტი აღარ არის გახსნილი.
 	A picked document is no longer a grayscale document of the same size.	ერთ-ერთი არჩეული დოკუმენტი აღარ არის იმავე ზომის ნაცრისფერი ტონების დოკუმენტი.
+
+# Strings added upstream (sync 2026-11-08)
+	Equalize Selected Area Only	მხოლოდ მონიშნული არის გათანაბრება
+	Equalize Entire Image Based On Selected Area	მთელი გამოსახულების გათანაბრება მონიშნული არის მიხედვით
+	Color Blindness - Protanopia-type	დალტონიზმი - პროტანოპიის ტიპი
+	Color Blindness - Deuteranopia-type	დალტონიზმი - დეიტერანოპიის ტიპი
+	Default Foreground and Background Colors (D)	ნაგულისხმევი წინა პლანისა და ფონის ფერები (D)
+	Switch Foreground and Background Colors (X)	წინა პლანისა და ფონის ფერების შენაცვლება (X)
+	Skip transform when placing	განთავსებისას გარდაქმნის გამოტოვება
+	Align top edges	ზედა კიდეების სწორება
+	Align vertical centers	ვერტიკალური ცენტრების სწორება
+	Align bottom edges	ქვედა კიდეების სწორება
+	Distribute vertically	ვერტიკალურად განაწილება
+	Distribute horizontally	ჰორიზონტალურად განაწილება
+	Show layer bounds on hover	შრის საზღვრების ჩვენება მაჩვენებლის მიტანისას
+	Expand layer group on click	შრეების ჯგუფის ჩამოშლა დაწკაპებით
+	Show hover bounds from Layers	საზღვრების ჩვენება შრეების პანელში მაჩვენებლის მიტანისას
+	Saved Camera Raw settings to {file}	Camera Raw-ის პარამეტრები შენახულია {file}-ში
+	Save the settings to each raw's sidecar without opening it	პარამეტრების შენახვა თითოეული raw ფაილის თანმხლებ ფაილში, მისი გახსნის გარეშე
+	No settings saved: these raws can't keep a sidecar here	პარამეტრები არ შენახულა: ამ raw ფაილებს აქ თანმხლები ფაილი ვერ ექნება
+	Some settings could not be saved; the raws stay open	ზოგიერთი პარამეტრი ვერ შეინახა; raw ფაილები ღია რჩება
+	Nothing to save: these raws are at their default settings	შესანახი არაფერია: ამ raw ფაილებს ნაგულისხმევი პარამეტრები აქვს
+	Distribute Widths	სიგანეების განაწილება
+	Distribute Heights	სიმაღლეების განაწილება
+	Auto-nest Layers	შრეების ავტომატური ჩადგმა
+	Auto-size Canvas	ტილოს ზომის ავტომატური მორგება
+	Keep Relative Position During Layer Reordering	შრეების გადალაგებისას ფარდობითი პოზიციის შენარჩუნება
+	Shrinkwrap Canvas on Save	შენახვისას ტილოს შიგთავსზე მორგება
