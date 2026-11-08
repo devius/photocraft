@@ -52,9 +52,6 @@ speakers, ~55% ready. Remaining: 80–140 h, plus native-speaker review (recorde
 Chinese `zh-hant` (2,329 rows), Russian `ru` (4,227 keys; also every dynamic label the
 other catalogs translate, [notes](localization-ru.md)), Ukrainian `uk` (3,375), Czech `cs` (3,522),
 Polish `pl` (3,366), Greek `el` (3,481), Dutch `nl` (3,568), Italian `it` (4,164; also every dynamic label the
-other catalogs translate; reviewed by a native speaker, [notes](localization-it.md)). Georgian `ka` (4,566 rows;
-every measured key, [notes](localization-ka.md)). Hungarian
-`hu` (4,347 rows) is also registered. Turkish `tr`
 other catalogs translate; reviewed by a native speaker, [notes](localization-it.md)). Hungarian
 `hu` (4,347 rows) is also registered. Georgian `ka` (4,530 rows; every measured key on 2026-10-31;
 Georgian UI fallback font: Noto Sans Georgian, Segoe UI, Sylfaen, SF Georgian, DejaVu Sans; on the web the first served font for `Geor`). Turkish `tr`

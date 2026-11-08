@@ -26,8 +26,6 @@ and hints address the user politely (*დაწკაპეთ*, *გადა�
 - Nouns stay singular after a numeral, so the catalog uses one plural form and count-neutral
   wording: `{n} layers` is `შრე: {n}` (`plural_none` in the registry).
 - UI font: PhotoCraft bundles no Georgian face. The fallback list in `crates/text/src/scripts.rs`
-  uses system fonts: Noto Sans Georgian, Segoe UI, Sylfaen, SF Georgian, Arial Unicode and DejaVu
-  Sans. The web build has no system fonts, so it needs a Georgian face before Georgian can render
   uses system fonts: Noto Sans Georgian, Segoe UI, Sylfaen, DejaVu Sans and
   FreeSans. The web build has no system fonts, so it needs a Georgian face before Georgian can render
   there.
