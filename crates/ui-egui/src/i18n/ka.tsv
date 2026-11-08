@@ -4717,6 +4717,7 @@ smartSvg	AI/PDF/EPS contents will be edited as SVG. Saving replaces the embedded
 	Pick a different document for each channel.	თითოეული არხისთვის სხვა დოკუმენტი აირჩიეთ.
 	A picked document is no longer open.	ერთ-ერთი არჩეული დოკუმენტი აღარ არის გახსნილი.
 	A picked document is no longer a grayscale document of the same size.	ერთ-ერთი არჩეული დოკუმენტი აღარ არის იმავე ზომის ნაცრისფერი ტონების დოკუმენტი.
+	Netscape Gray	Netscape-ის ნაცრისფერი
 
 # Strings added upstream (sync 2026-11-08)
 	Equalize Selected Area Only	მხოლოდ მონიშნული არის გათანაბრება
