@@ -55,6 +55,9 @@ Polish `pl` (3,366), Greek `el` (3,481), Dutch `nl` (3,568), Italian `it` (4,164
 other catalogs translate; reviewed by a native speaker, [notes](localization-it.md)). Georgian `ka` (4,566 rows;
 every measured key, [notes](localization-ka.md)). Hungarian
 `hu` (4,347 rows) is also registered. Turkish `tr`
+other catalogs translate; reviewed by a native speaker, [notes](localization-it.md)). Hungarian
+`hu` (4,347 rows) is also registered. Georgian `ka` (4,530 rows; every measured key on 2026-10-31;
+Georgian UI fallback font: Noto Sans Georgian, Segoe UI, Sylfaen, SF Georgian, DejaVu Sans; on the web the first served font for `Geor`). Turkish `tr`
 (3,731 rows) also covers every measured key. Serbian `sr` (4,022 rows, Latin script, Ekavian, added 2026-10-12) covers every
 measured key and the union of the other catalogs' dynamic labels; its one/few/many plurals reuse
 the Russian rule. Swedish `sv` (4,552 rows, added 2026-10-28) covers every measured key and the

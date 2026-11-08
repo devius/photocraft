@@ -28,6 +28,8 @@ and hints address the user politely (*დაწკაპეთ*, *გადა�
 - UI font: PhotoCraft bundles no Georgian face. The fallback list in `crates/text/src/scripts.rs`
   uses system fonts: Noto Sans Georgian, Segoe UI, Sylfaen, SF Georgian, Arial Unicode and DejaVu
   Sans. The web build has no system fonts, so it needs a Georgian face before Georgian can render
+  uses system fonts: Noto Sans Georgian, Segoe UI, Sylfaen, DejaVu Sans and
+  FreeSans. The web build has no system fonts, so it needs a Georgian face before Georgian can render
   there.
 - PhotoCraft has no per-language date or number formatting, so nothing Georgian-specific applies.
 
